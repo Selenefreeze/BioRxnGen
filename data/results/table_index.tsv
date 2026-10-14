@@ -1,0 +1,36 @@
+table	file	sheet	rows	columns
+amino_acid_bridge_architecture	results/interaction_results.xlsx	Amino acid pairings	6	14
+candidate_transformations	results/interaction_results.xlsx	ADI transformations	48	20
+intermediates	results/interaction_results.xlsx	ADI intermediates	49	19
+iteration_summary	results/interaction_results.xlsx	ADI generation rounds	4	14
+hcom1_arg_adi_database_overlay	results/interaction_results.xlsx	ADI reference reactions	3	12
+hcom1_arg_adi_mechanism_metrics	results/interaction_results.xlsx	hCom1 and ADI metrics	20	13
+hcom1_arg_adi_protein_breakdown	results/interaction_results.xlsx	ADI proteins	2	5
+qs_precursor_summary	results/interaction_results.xlsx	QS precursor summary	3	16
+dietary_protein_annotations	results/exogenous_results.xlsx	Dietary protein annotations	13	17
+dietary_transformation_audit	results/exogenous_results.xlsx	Dietary transformation audit	21	34
+entry_convergence	results/exogenous_results.xlsx	Entry convergence	5	19
+leading_entry_states	results/exogenous_results.xlsx	Leading entry states	36	13
+food_polyphenol_case_summary	results/exogenous_results.xlsx	Dietary compound summary	3	16
+food_polyphenol_retained_steps	results/exogenous_results.xlsx	Retained dietary steps	12	18
+neuropharmaceutical_duloxetine_venlafaxine_steps	results/exogenous_results.xlsx	Drug representative steps	6	14
+neuropharmaceutical_pair_metrics	results/exogenous_results.xlsx	Drug pair metrics	2	15
+neuropharmaceutical_response_metrics	results/exogenous_results.xlsx	Drug response metrics	12	14
+assembly_coverage	results/cobalamin_results.xlsx	Assembly coverage	45	10
+core_strain_step_matrix	results/cobalamin_results.xlsx	Core strain step matrix	185	24
+leave_one_strain_out	results/cobalamin_results.xlsx	Model removal	63	13
+reference_steps	results/cobalamin_results.xlsx	Reference steps	39	11
+supplemental_annotation_matches	results/cobalamin_results.xlsx	Supplemental annotations	65	23
+supplemental_strain_step_matrix	results/cobalamin_results.xlsx	Supplemental step matrix	78	16
+cobalamin_candidate_communities	results/cobalamin_results.xlsx	Core combinations	12	19
+cobalamin_pipeline_metrics	results/cobalamin_results.xlsx	Pathway summary	22	3
+cobalamin_reference_step_status	results/cobalamin_results.xlsx	Core step status	37	19
+cobalamin_supplemental_designs	results/cobalamin_results.xlsx	Supplemental designs	5	12
+cobalamin_supplemental_resource_support	results/cobalamin_results.xlsx	Supplemental module support	12	13
+Supplementary_Table_1_Fig2_internal_benchmark_summary	results/supplementary_tables.xlsx	Table 1	34	9
+Supplementary_Table_2_Fig2_external_identity_hierarchy	results/supplementary_tables.xlsx	Table 2	7	9
+Supplementary_Table_3_Fig4_amino_acid_candidate_expansion	results/supplementary_tables.xlsx	Table 3	20	4
+Supplementary_Table_4_Fig6_cobalamin_reference_step_audit	results/supplementary_tables.xlsx	Table 4	37	11
+Supplementary_Table_5_Fig4_hCom1_arg_ADI_audit	results/supplementary_tables.xlsx	Table 5	20	8
+Supplementary_Table_6_Fig5_exogenous_candidate_audit	results/supplementary_tables.xlsx	Table 6	17	8
+amino_acid_candidate_expansion	results/supplementary_tables.xlsx	Table 3	20	4

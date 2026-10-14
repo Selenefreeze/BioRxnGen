@@ -1,0 +1,23 @@
+{
+  "scope": "Saved protein-substrate compatibility scores on known and decoy pairings",
+  "all_pairs": {
+    "pairs": 296728,
+    "known_pairs": 75000,
+    "auroc": 0.5356795464412853,
+    "average_precision": 0.2785381839189033
+  },
+  "test": {
+    "pairs": 88823,
+    "known_pairs": 22455,
+    "auroc": 0.5357676170137339,
+    "average_precision": 0.2783951558479534
+  },
+  "model": {
+    "type": "fixed ESP XGBoost compatibility checkpoint",
+    "expected_features": 2304,
+    "protein_embedding_dimensions": 1280,
+    "substrate_fingerprint_bits": 1024,
+    "checkpoint_sha256": "ef1af64c27e0d08674aaf5fb8a05496be96805359e5a55fe05215e08f87f97fa"
+  },
+  "interpretation": "Auxiliary compatibility analysis; not a validated catalytic-activity measurement or a stand-alone benchmark claim."
+}

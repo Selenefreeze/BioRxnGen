@@ -1,0 +1,8 @@
+{
+  "generation_batches": 1247,
+  "candidate_product_rows": 54825680,
+  "generation_attempt_rows": 4515279,
+  "nonself_candidate_rows": 53472291,
+  "identity_candidate_rows": 1353389,
+  "distinct_reaction_signatures": 86461
+}

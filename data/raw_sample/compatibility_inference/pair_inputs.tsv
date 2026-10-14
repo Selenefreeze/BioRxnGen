@@ -1,0 +1,2 @@
+pair_id	protein_ref	substrate_smiles	reference_score
+sample:isochorismate	G_WP_000844894__46__1	C=C(OC1C=CC=C(C(=O)[O-])C1O)C(=O)[O-]	0.28623277

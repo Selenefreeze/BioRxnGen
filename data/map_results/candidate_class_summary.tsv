@@ -1,0 +1,6 @@
+candidate_class	reaction_signatures	model_specific_signatures	candidate_rows	nonself_rows	native_substrate_nonself_rows	unique_models	unique_ec	unique_products	unique_enzymes	internal_models	external_models	both_source_models	internal_signatures	external_signatures
+native_substrate_associated	20879	3314796	7203892	7203892	7203892	4040	323	12273	197013	3911	295	166	20613	8172
+database_matched_non_agora	16	865	1991	1971	1971	345	12	13	622	345	0	0	16	0
+database_matched_agora_overlap	14	843	2164	2136	2136	708	10	9	910	657	69	18	14	1
+exploratory	64684	19274560	46264292	46264292	0	4988	222	39923	127162	4938	300	250	64589	15327
+identity_or_non_insertion	868	280768	1353341	0	0	4811	144	556	68528	4746	267	202	861	190

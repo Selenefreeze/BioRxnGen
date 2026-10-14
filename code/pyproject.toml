@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biorxngen"
+version = "0.1.0"
+description = "Strain-resolved candidate biological reaction generation and product reranking."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.0",
+  "numpy>=1.24",
+  "pyarrow>=21.0,<22.0"
+]
+
+[project.optional-dependencies]
+chem = ["rdkit>=2023.9"]
+model = ["rdkit>=2023.9", "torch>=2.3", "scikit-learn>=1.3"]
+compatibility = ["rdkit>=2023.9", "xgboost>=3.2,<3.3"]
+reproduction = ["rdkit>=2023.9", "torch>=2.3", "scikit-learn>=1.3", "tqdm>=4.66"]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

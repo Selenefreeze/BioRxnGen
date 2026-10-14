@@ -1,0 +1,23 @@
+{
+  "standard": {
+    "rule_topk_per_ec": 40,
+    "max_contexts_per_candidate": 3,
+    "max_products_per_rule": 12,
+    "max_reactant_permutations": 128,
+    "chunk_rows": 5000,
+    "max_product_rows": 100000,
+    "run_esp_scoring": false
+  },
+  "regenerated": {
+    "rule_topk_per_ec": 40,
+    "max_contexts_per_candidate": 3,
+    "max_products_per_rule": 12,
+    "max_reactant_permutations": 128,
+    "chunk_rows": 5000,
+    "max_product_rows": 0,
+    "run_esp_scoring": false,
+    "batch_selection": "regenerated rows in metadata/candidate_product_manifest.tsv"
+  },
+  "zero_product_row_limit": "No batch-level product-row cap",
+  "usage": "Settings reference for generation.py run --profile; not a separately loaded configuration"
+}

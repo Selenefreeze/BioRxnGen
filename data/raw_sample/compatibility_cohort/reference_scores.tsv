@@ -1,0 +1,25 @@
+pair_id	model_id	reaction_id	ec_number	label	split	decoy_class	compatibility_score
+08ebd7e2bae36013a7122c9a	M_Acinetobacter_baumannii_6014059	R_ACACT4r	2.3.1.16	1	train	known enzyme-substrate pair	0.040753856
+4f5d427df60df791ac5483fd	M_Acinetobacter_baumannii_6014059	R_ACACT4r	2.3.1.16	0	train	same-EC alternative substrate	0.16076757
+c9ab58eb7bb888d074718275	M_Acinetobacter_baumannii_6014059	R_ACACT4r	2.3.1.16	0	train	same-model alternative enzyme	0.036274016
+1a2a908447cd9d50690ccd8d	M_Acinetobacter_baumannii_6014059	R_ACACT4r	2.3.1.16	0	train	cross-strain same-EC alternative enzyme	0.13067079
+2f1f51616b02ba5d47ec7d26	M_Ochrobactrum_anthropi_ATCC_49188	R_3OAS160	2.3.1.41	1	train	known enzyme-substrate pair	0.32099253
+1afb689c273acd13eb8f38ec	M_Ochrobactrum_anthropi_ATCC_49188	R_3OAS160	2.3.1.41	0	train	same-EC alternative substrate	0.5486875
+147c6bf957542c3d801a8e11	M_Ochrobactrum_anthropi_ATCC_49188	R_3OAS160	2.3.1.41	0	train	same-model alternative enzyme	0.33970994
+6cdf55b804a5d8a76d51f0e1	M_Ochrobactrum_anthropi_ATCC_49188	R_3OAS160	2.3.1.41	0	train	cross-strain same-EC alternative enzyme	0.089390494
+a6b406d209e3e499be9bda92	M_Acinetobacter_baumannii_AA_014	R_3OAR6M8	1.1.1.100	1	test	known enzyme-substrate pair	0.65200424
+6f9596484364e9cc369932fe	M_Acinetobacter_baumannii_AA_014	R_3OAR6M8	1.1.1.100	0	test	same-EC alternative substrate	0.32676372
+0be938282b864ae20c5bc16e	M_Acinetobacter_baumannii_AA_014	R_3OAR6M8	1.1.1.100	0	test	same-model alternative enzyme	0.34830245
+32c347ed74f37268e87b7b17	M_Acinetobacter_baumannii_AA_014	R_3OAR6M8	1.1.1.100	0	test	cross-strain same-EC alternative enzyme	0.5978994
+d80c76d8097b61572c0d224b	M_Acidobacterium_capsulatum_ATCC_51196	R_CDPMEK	2.7.1.148	1	test	known enzyme-substrate pair	0.6000237
+3798defc52216c15fb8f21ba	M_Acidobacterium_capsulatum_ATCC_51196	R_CDPMEK	2.7.1.148	0	test	same-EC alternative substrate	0.17568357
+51a9760e59eac96f86c17463	M_Acidobacterium_capsulatum_ATCC_51196	R_CDPMEK	2.7.1.148	0	test	same-model alternative enzyme	0.6037188
+a6fd2bc82c30462b7841b458	M_Acidobacterium_capsulatum_ATCC_51196	R_CDPMEK	2.7.1.148	0	test	cross-strain same-EC alternative enzyme	0.60111284
+d6a8ff7846f729401249a3f2	M_Escherichia_coli_DEC4E	R_G3PAT141	2.3.1.15	1	valid	known enzyme-substrate pair	0.21493965
+50d5798ee8294eadf7aa9a6d	M_Escherichia_coli_DEC4E	R_G3PAT141	2.3.1.15	0	valid	same-EC alternative substrate	0.05698165
+8fcf34b692956c73e0bba9de	M_Escherichia_coli_DEC4E	R_G3PAT141	2.3.1.15	0	valid	same-model alternative enzyme	0.23478979
+ad703faf306cbfb6329177a4	M_Escherichia_coli_DEC4E	R_G3PAT141	2.3.1.15	0	valid	cross-strain same-EC alternative enzyme	0.17126685
+db495964313cbd9fdc2c88f4	M_Acinetobacter_baumannii_WC_A_694	R_PSD161	4.1.1.65	1	valid	known enzyme-substrate pair	0.01874254
+92e2f77282c63989445076b4	M_Acinetobacter_baumannii_WC_A_694	R_PSD161	4.1.1.65	0	valid	same-EC alternative substrate	0.072822124
+84425ebee10833c04671f13d	M_Acinetobacter_baumannii_WC_A_694	R_PSD161	4.1.1.65	0	valid	same-model alternative enzyme	0.053088605
+16d9f4bca9be5d5950508c7b	M_Acinetobacter_baumannii_WC_A_694	R_PSD161	4.1.1.65	0	valid	cross-strain same-EC alternative enzyme	0.017660165

@@ -1,0 +1,33 @@
+{
+  "protein_model": "esm1b_t33_650M_UR50S",
+  "backend": "hf_transformers_esm1b_t33_650M_UR50S",
+  "dimensions": 1280,
+  "pooling": "attention-mask-weighted mean of final hidden states excluding special tokens",
+  "tokenizer_max_length": 1024,
+  "truncation": true,
+  "drop_special_tokens": true,
+  "embedding_batch_size": 1,
+  "array_dtype": "float32",
+  "array_shape": [
+    38185,
+    1280
+  ],
+  "substrate_fingerprint": {
+    "type": "Morgan",
+    "radius": 2,
+    "bits": 1024
+  },
+  "classifier_feature_order": [
+    "substrate_fingerprint_1024",
+    "protein_embedding_1280"
+  ],
+  "array_sha256": "5f8d41ed4ac83838f940b894b57a26ea065cba30e6308e248f184d993acfebf1",
+  "original_environment": {
+    "rdkit": "2025.09.6",
+    "torch": "2.3.1+cu121",
+    "transformers": "4.45.2",
+    "xgboost": "3.2.0",
+    "sklearn": "1.7.2"
+  },
+  "scope": "Retained numerical representations and frozen-classifier inference; new model-weight execution is separate"
+}

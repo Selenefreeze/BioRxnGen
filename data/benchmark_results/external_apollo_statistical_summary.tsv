@@ -1,0 +1,11 @@
+analysis_scope	metric	value	rate
+Candidate generation	Candidate-producing reactions	955 / 1,000	0.955
+Initial identity comparison	Proton/water-normalized top-20 recovery	135 / 1,000	0.135
+Initial identity comparison	Charge/component-normalized top-20 recovery	457 / 1,000	0.457
+Initial identity comparison	Formula-equivalent top-20 recovery before targeted generation	701 / 1,000	0.701
+Initial identity comparison	Formula-equivalent candidate-set coverage before targeted generation	725 / 1,000	0.725
+Residual audit	Residual units without core-product correspondence	288 / 299	0.9632107023411371
+Targeted generation	Candidate rows from targeted generation	59006	
+Targeted generation	Residual units without formula-equivalent candidates	142 / 160	0.8875
+Final identity comparison	Formula-equivalent top-20 recovery after targeted generation	710 / 1,000	0.71
+Final identity comparison	Formula-equivalent candidate-set coverage after targeted generation	743 / 1,000	0.743

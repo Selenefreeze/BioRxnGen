@@ -1,0 +1,103 @@
+{
+  "status": "passed",
+  "date": "2026-10-14",
+  "scope": "Core inputs, generation, reranking and benchmarks; case workflows are provided as result tables",
+  "core_data_and_model_checks": {
+    "date": "2026-10-12",
+    "unit_tests_passed": 48,
+    "processed_models": 7302,
+    "generation_input_pairs": 6056731,
+    "standard_product_rows": 54825680,
+    "regenerated_product_rows": 220051473,
+    "standard_signature_classification_and_group_summaries": "match",
+    "standard_reaction_signatures": 86461,
+    "native_substrate_models": 4040,
+    "reference_reaction_units": 1799,
+    "candidate_labels_checked": 246387,
+    "training_rows": 145162,
+    "validation_rows": 20272,
+    "training_max_epochs": 10,
+    "retrained_best_epoch": 8,
+    "retrained_validation_auprc": 0.6082002866257822,
+    "retrained_test_top1_hits": 225,
+    "retrained_test_top20_hits": 290,
+    "retraining_note": "CPU retraining verifies the workflow; manuscript metrics are reproduced with the archived GPU-trained checkpoint",
+    "frozen_inference_rows": 246387,
+    "fresh_inference_fig2_metrics": "match",
+    "external_original_generated_rows": 85316,
+    "external_residual_generated_rows": 59006,
+    "external_selection_and_inference": "match",
+    "external_recovery_counts": "match",
+    "database_signatures_checked": 86461,
+    "database_matching_fields": "match",
+    "compatibility_pairs_checked": 296728,
+    "bounded_generation_pairs": 100,
+    "bounded_generation_product_rows": 264,
+    "bounded_generation_chemical_and_annotation_match": true,
+    "scope": "Core inputs, models and benchmarks; case analysis not repeated",
+    "packages": {
+      "python": "3.13.5",
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "pyarrow": "21.0.0",
+      "rdkit": "2025.9.3",
+      "torch": "2.14.1+cpu",
+      "scikit-learn": "1.6.1",
+      "xgboost": "3.2.0"
+    }
+  },
+  "regenerated_statistics": {
+    "batches": 460,
+    "product_rows": 220051473,
+    "ec_defined_signatures": 95789,
+    "reference_check": "passed"
+  },
+  "compatibility_inputs": {
+    "pairs": 296728,
+    "proteins": 38185,
+    "embedding_dimensions": 1280,
+    "embedding_row_range": [
+      0,
+      38184
+    ],
+    "array_dtype": "float32",
+    "array_sha256": "5f8d41ed4ac83838f940b894b57a26ea065cba30e6308e248f184d993acfebf1",
+    "all_embeddings_finite": true,
+    "original_metadata_mapping_check": "passed",
+    "pair_inputs_match_original": true,
+    "remaining_asset": null,
+    "cohort_sample_pairs": 24,
+    "cohort_sample_proteins": 18,
+    "sample_scope": "Archived single-pair and full-cohort samples plus deposited full-cohort array"
+  },
+  "compatibility_full_inference": {
+    "pairs_checked": 296728,
+    "maximum_score_difference": 5.960464477539063e-08,
+    "mean_score_difference": 5.175618497549689e-12,
+    "absolute_tolerance": 1e-06,
+    "scores_outside_tolerance": 0,
+    "reference_check": "passed"
+  },
+  "model_coverage": {
+    "models_with_standard_products": 5160,
+    "models_with_native_substrate_candidates": 4040,
+    "native_substrate_nonself_rows": 7207999,
+    "median_positive_model_rows": 954.5,
+    "models_at_least_10000_rows": 51,
+    "zero_native_substrate_models": 1120,
+    "median_assessed_model_rows": 666.0
+  },
+  "repository_checks": {
+    "date": "2026-10-14",
+    "tests_passed": 61,
+    "source_tables_verified": 34,
+    "source_cells_verified": 16160,
+    "sample_archive_files_verified": 6,
+    "core_implementation_and_model_files_unchanged": 19
+  },
+  "limits": [
+    "Full chemical generation was not repeated",
+    "Inference uses archived ESM1b representations; new sequence embedding extraction is not included",
+    "CPU retraining is reported separately from the archived GPU-trained checkpoint"
+  ]
+}

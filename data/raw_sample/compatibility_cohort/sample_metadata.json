@@ -1,0 +1,9 @@
+{
+  "pairs": 24,
+  "proteins": 18,
+  "dimensions": 1280,
+  "selection": "First two archived rows per split, alternative-pair class and binary label",
+  "source_array_sha256": "5f8d41ed4ac83838f940b894b57a26ea065cba30e6308e248f184d993acfebf1",
+  "sample_array_sha256": "39943161a2daf3cfb73b1f90330a41e2526cfb7db73af4a4b9ceda2ee7c1e0bb",
+  "interpretation": "Bounded frozen-classifier verification, not an estimate of benchmark performance"
+}
