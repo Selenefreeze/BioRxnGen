@@ -1,0 +1,11 @@
+# Validated with Python 3.13.5 and GLPK 5.0
+numpy==2.1.3
+pandas==2.2.3
+pyarrow==21.0.0
+rdkit==2025.9.3
+cobra==0.30.0
+swiglpk==5.0.12
+scipy==1.15.3
+openpyxl==3.1.5
+tqdm==4.67.1
+inflate64==1.0.4

@@ -1,0 +1,184 @@
+[
+  {
+    "dataset": "OMM12",
+    "file": "OMM12_SourceData.zip",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10409746/supplementaryFiles",
+    "member": "41467_2023_40372_MOESM3_ESM.zip",
+    "bytes": 1195857,
+    "sha256": "45157de4fd55eacdaf662785d376b170f6d8711984d4ab777635f61fe7d6d81a"
+  },
+  {
+    "dataset": "ASF",
+    "file": "asf_integrals_with_metadata.txt",
+    "sha256": "df3d6119fe0acf4eddc6aefb330d900cf246d76eb0d8dcf09cdf20e5ae1ed30b",
+    "url": "https://raw.githubusercontent.com/gregmedlock/asf_interactions/f7f800b11e10db00a560540669fb317cff36d3f8/data/integrals_with_metadata.txt"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhbt/acetate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhbt/acetate.tsv",
+    "sha256": "3f99d10982ab77da17b70ce3c5330fdbf0140438e1ed18993a3608eec2aee8c2"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhbt/formate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhbt/formate.tsv",
+    "sha256": "111b3992f015f53c48363bc17b4379e590eeffb45ed6e11167cb614b43683c35"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhbt/glucose.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhbt/glucose.tsv",
+    "sha256": "c2f8c700fd907a96bc12425bf5a61d6c268e4bd08e2dfd891747c67c514dbd83"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhbt/lactate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhbt/lactate.tsv",
+    "sha256": "0e2a728d06d4a2db459ece1075aa78631cc9594eddda1cb89303a4d1d49af9b8"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhbt/pyruvate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhbt/pyruvate.tsv",
+    "sha256": "6eb51f7255c4e933e3738c3c6e4d2d85c56d511aad95eabd62711a9b3cf0fab8"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhbt/succinate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhbt/succinate.tsv",
+    "sha256": "4c9378bcff045bf594e03d1f574d8b03b404f247c963f195f426e92f57048b7a"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhbt/trehalose.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhbt/trehalose.tsv",
+    "sha256": "5f5327a639886f9a0158b669e6f01eec3c58ef5f500853e19d065d31064618ad"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhbtri/acetate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhbtri/acetate.tsv",
+    "sha256": "5e85c7e1893237a09547d1aba66891d2378ce86457ca5e196fe82cb54e03f909"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhbtri/butyrate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhbtri/butyrate.tsv",
+    "sha256": "58c1c07ff5b076cc7d9d4ec6c62f1e18c8079b324999bd5526ee46fa91ed20c6"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhbtri/formate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhbtri/formate.tsv",
+    "sha256": "de87f030a61fd7c97f191d870e7732b662da68eaca989dcbfe2f9d92b9910413"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhbtri/glucose.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhbtri/glucose.tsv",
+    "sha256": "45d5432cfef546f2c8cd8c6ffefd4200496a4fee91b1c9fa8c60525ffb35834b"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhbtri/lactate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhbtri/lactate.tsv",
+    "sha256": "2144f02633044746c2acc0efa1270d0242a2573ff0dadc32f03061a2ce6c2580"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhbtri/pyruvate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhbtri/pyruvate.tsv",
+    "sha256": "002bb0b9eb05009fdd97dc3a8ed16dfd6ca1584908713e1b62e180c46aff5404"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhbtri/succinate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhbtri/succinate.tsv",
+    "sha256": "23bcf3a9aa7e5026a1c408785dff770adc841756b556397f7426243cade9bc4e"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhbtri/trehalose.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhbtri/trehalose.tsv",
+    "sha256": "be2451ab70ed9992b4e1b728bc96abc3e6c997904f851d797f09640f51ff5d4e"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhri/acetate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhri/acetate.tsv",
+    "sha256": "b12ae34d727a49f36feb5de53d25a4d536cf223c5fc9f14464b54b117271a9d0"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhri/butyrate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhri/butyrate.tsv",
+    "sha256": "f17ef896b02974337abac16555919b2d0f50903807d4cb2eb273bd534ab0142a"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhri/glucose.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhri/glucose.tsv",
+    "sha256": "8d706eef50b703568a239eeca8f07b94b39b790e86bc201099668018c032378e"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhri/lactate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhri/lactate.tsv",
+    "sha256": "8194ef184d2200a35c3579c8585d1e858c01fac819421bf2a7f9584c58d7b115"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhri/pyruvate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhri/pyruvate.tsv",
+    "sha256": "960ba2e5e7ab731d0229f6dc422f3bcdc1d1cc3b090d5035c053b72e435dd6e5"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/bhri/trehalose.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/bhri/trehalose.tsv",
+    "sha256": "437b06c1df7b6e54d69ee14f3ff62d7bc88a99937c514596377f1bfc55ef3bc2"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/btri/acetate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/btri/acetate.tsv",
+    "sha256": "2ec5376910c606349541714b424fc12b7c60a91ad3755dea2f7dcd5ea3a99d41"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/btri/butyrate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/btri/butyrate.tsv",
+    "sha256": "8dd5a4c9866c40c1a86fb06f6b44479ce558e5043b17cc3f5353012385837550"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/btri/formate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/btri/formate.tsv",
+    "sha256": "97bb278146c296cf5a9f877faee9a366a3ae280b3ad95fdc8c3367f952d1f35f"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/btri/glucose.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/btri/glucose.tsv",
+    "sha256": "6b36c24ea4a114c64e6ac84b202aedcacee082177486c8754284e072e03e4971"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/btri/lactate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/btri/lactate.tsv",
+    "sha256": "412a2ee41fd56fb8ca52e34f974f1fb59c8138bb3edf57fbd1f1772bf7429e63"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/btri/pyruvate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/btri/pyruvate.tsv",
+    "sha256": "c386a46c40030553d2315c77c8ffa9ad66e0a4edd3e9a57bed5108f8b2f58520"
+  },
+  {
+    "dataset": "Rios Garza",
+    "file": "garza/btri/succinate.tsv",
+    "url": "https://raw.githubusercontent.com/danielriosgarza/hungerGamesModel/aeeb26122c3ea938a7d96cafb48a22200102d423/files/strainSummaries/btri/succinate.tsv",
+    "sha256": "70e4733dc7d8393dcc62c10be023314eb99962631be54a13f146f970135d12dd"
+  }
+]

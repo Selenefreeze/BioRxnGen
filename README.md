@@ -10,6 +10,7 @@ BioRxnGen generates strain-resolved candidate reaction hypotheses from enzyme an
 |---|---|
 | [code](code) | Methods, trained models, configurations and tests |
 | [data](data) | Samples, benchmark scores and [source-data workbooks](data/results) |
+| [benchmarks](benchmarks/defined_communities) | Defined-community inputs, original run records and replay scripts |
 
 ## Install and run
 

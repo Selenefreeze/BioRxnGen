@@ -19,6 +19,7 @@ jobs:
       - run: python -m pytest code/tests -q -p no:cacheprovider
       - run: python code/examples/generation.py
       - run: python code/scripts/benchmark.py internal --check
+      - run: python benchmarks/defined_communities/benchmark.py verify
       - run: python code/examples/inference.py external
       - run: python code/scripts/compatibility.py score --output output/compatibility_sample.tsv --check
       - run: python code/examples/inference.py esp

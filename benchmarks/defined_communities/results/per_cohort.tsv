@@ -1,0 +1,40 @@
+study	cohort	baseline	panel	total	bio_ec	gem_community	gem_co_growth	native_graph	bio_sequence	gem_same_seq_members	both	bio_only	gem_only	neither	delta	paired_exact_p
+Medlock2018	ASF_356_361	medium_blank	enriched	8	5	3	3	8	2	3	3	2	0	3	0.25	0.5
+Medlock2018	ASF_356_361	medium_blank	all_valid	51	31	19	19	42	4	19	15	16	4	16	0.2352941176470588	0.0118179321289062
+Medlock2018	ASF_356_361	medium_blank	enriched_exchange_mapped	5	4	3	3	5	1	3	3	1	0	1	0.2	1.0
+Medlock2018	ASF_356_361_519	medium_blank	enriched	11	6	6	6	11	2	6	5	1	1	4	0.0	1.0
+Medlock2018	ASF_356_361_519	medium_blank	all_valid	51	33	24	24	43	4	24	20	13	4	14	0.1764705882352941	0.049041748046875
+Medlock2018	ASF_356_361_519	medium_blank	enriched_exchange_mapped	8	6	6	6	8	2	6	5	1	1	1	0.0	1.0
+Medlock2018	ASF_356_492	medium_blank	enriched	9	4	1	1	6	1	1	1	3	0	5	0.3333333333333333	0.25
+Medlock2018	ASF_356_492	medium_blank	all_valid	50	29	17	17	39	4	10	13	16	4	17	0.24	0.0118179321289062
+Medlock2018	ASF_356_492	medium_blank	enriched_exchange_mapped	3	2	1	1	3	0	1	1	1	0	1	0.3333333333333333	1.0
+Medlock2018	ASF_356_519	medium_blank	enriched	14	9	6	6	11	2	6	6	3	0	5	0.2142857142857142	0.25
+Medlock2018	ASF_356_519	medium_blank	all_valid	51	33	21	21	40	4	21	18	15	3	15	0.2352941176470588	0.007537841796875
+Medlock2018	ASF_356_519	medium_blank	enriched_exchange_mapped	8	7	6	6	8	2	6	6	1	0	1	0.125	1.0
+Medlock2018	ASF_361_492	medium_blank	enriched	5	3	2	2	5	1	2	2	1	0	2	0.2	1.0
+Medlock2018	ASF_361_492	medium_blank	all_valid	51	32	19	19	42	4	14	16	16	3	16	0.2549019607843137	0.004425048828125
+Medlock2018	ASF_361_492	medium_blank	enriched_exchange_mapped	4	3	2	2	4	1	2	2	1	0	1	0.25	1.0
+Medlock2018	ASF_361_519	medium_blank	enriched	14	9	7	7	14	2	7	6	3	1	4	0.1428571428571428	0.625
+Medlock2018	ASF_361_519	medium_blank	all_valid	51	33	20	20	42	4	20	17	16	3	15	0.2549019607843137	0.004425048828125
+Medlock2018	ASF_361_519	medium_blank	enriched_exchange_mapped	10	8	7	7	10	2	7	6	2	1	1	0.1	1.0
+Medlock2018	ASF_492_519	medium_blank	enriched	15	13	10	10	14	2	5	9	4	1	1	0.2	0.375
+Medlock2018	ASF_492_519	medium_blank	all_valid	51	32	22	22	39	4	15	19	13	3	16	0.196078431372549	0.021270751953125
+Medlock2018	ASF_492_519	medium_blank	enriched_exchange_mapped	11	10	10	10	11	2	5	9	1	1	0	0.0	1.0
+RiosGarza2026	GARZA_BHBT	early_culture	enriched	3	3	3	3	3	0	2	3	0	0	0	0.0	
+RiosGarza2026	GARZA_BHBT	early_culture	all_valid	6	5	4	4	6	1	3	4	1	0	1	0.1666666666666666	1.0
+RiosGarza2026	GARZA_BHBT	early_culture	enriched_exchange_mapped	3	3	3	3	3	0	2	3	0	0	0	0.0	
+RiosGarza2026	GARZA_BHBTRI	early_culture	enriched	5	5	5	5	5	4	5	5	0	0	0	0.0	
+RiosGarza2026	GARZA_BHBTRI	early_culture	all_valid	8	7	6	6	8	6	6	6	1	0	1	0.125	1.0
+RiosGarza2026	GARZA_BHBTRI	early_culture	enriched_exchange_mapped	5	5	5	5	5	4	5	5	0	0	0	0.0	
+RiosGarza2026	GARZA_BHRI	early_culture	enriched	3	2	3	3	3	2	3	2	0	1	0	-0.3333333333333333	1.0
+RiosGarza2026	GARZA_BHRI	early_culture	all_valid	6	4	4	4	6	4	4	3	1	1	1	0.0	1.0
+RiosGarza2026	GARZA_BHRI	early_culture	enriched_exchange_mapped	3	2	3	3	3	2	3	2	0	1	0	-0.3333333333333333	1.0
+RiosGarza2026	GARZA_BTRI	early_culture	enriched	5	5	5	5	5	4	5	5	0	0	0	0.0	
+RiosGarza2026	GARZA_BTRI	early_culture	all_valid	7	7	6	6	7	6	6	6	1	0	0	0.1428571428571428	1.0
+RiosGarza2026	GARZA_BTRI	early_culture	enriched_exchange_mapped	5	5	5	5	5	4	5	5	0	0	0	0.0	
+Weiss2023	OMM12_AF	medium_blank	enriched	9	7	7	7	7	1	6	6	1	1	1	0.0	1.0
+Weiss2023	OMM12_AF	medium_blank	all_valid	26	20	23	23	23	1	21	18	2	5	1	-0.1153846153846153	0.453125
+Weiss2023	OMM12_AF	medium_blank	enriched_exchange_mapped	7	6	7	7	7	1	6	6	0	1	0	-0.1428571428571428	1.0
+Weiss2023	OMM12_APF	medium_blank	enriched	13	12	12	12	12	1	10	11	1	1	0	0.0	1.0
+Weiss2023	OMM12_APF	medium_blank	all_valid	24	18	21	21	21	1	19	16	2	5	1	-0.125	0.453125
+Weiss2023	OMM12_APF	medium_blank	enriched_exchange_mapped	12	11	12	12	12	1	10	11	0	1	0	-0.0833333333333333	1.0
