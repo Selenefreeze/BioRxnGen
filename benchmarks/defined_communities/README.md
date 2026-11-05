@@ -1,25 +1,29 @@
 # Defined-community metabolite benchmark
 
-This benchmark compares BioRxnGen candidate-product recovery with feasible net secretion from the corresponding native AGORA2 models. It covers OMM12 in AF and APF, seven ASF co-cultures and four Rios Garza communities. The primary generation run uses strain-linked EC annotations and native substrates. ESP and the learned reranker are disabled. The GEM comparison uses an anaerobic rich-medium profile and requires at least 10% of maximum community growth.
+We evaluated ranked BioRxnGen candidates against extracellular metabolites enriched in OMM12, ASF and Rios Garza cultures. The primary run used strain-linked EC annotations and native substrates for 19 strains. The frozen Fig. 2 reranker scored the generated products without ESP. Ranking was performed within each strain–EC–substrate input.
+
+The top five candidates per input retained 71 of 114 enriched condition–metabolite observations using 23,629 of 350,265 candidate rows (6.7%). The full candidate set matched 83 observations. Native AGORA2 supported feasible net secretion for 70 observations under anaerobic rich-medium bounds at 10% of maximum community growth. Its intracellular reaction-product inventory matched 104 observations.
 
 | Location | Contents |
 | --- | --- |
 | [data](data) | 19 model identifiers, 13 community definitions, the assay panel, structure mappings and the exact generation worklists |
 | [generation records](results/generation_records.zip) | Original candidate and attempt Parquet files. The EC and sequence-linked runs are stored separately |
+| [ranked candidates](results/ranked_candidates.zip) | Full EC candidate features, frozen scores and per-input ranks |
+| [ranking results](results/ranked_coverage.tsv) | Top-k and full-pool coverage by study and community, with exchange and ranking-unit sensitivity analyses |
+| [analyte ranks](results/ranked_analytes.tsv) | Best rank and supporting strain models for each measured analyte |
 | [native GEM records](results/native_gem_records.zip) | Original solver output, growth, exchange mappings and native intracellular products |
-| [per-analyte scores](results/per_analyte.tsv) | Assay eligibility, enrichment and method-specific matches |
-| [community scores](results/per_cohort.tsv) | Counts by community and condition |
-| [study coverage](results/study_coverage.tsv) | Study-level results including the fourth study in the scope sensitivity analysis |
+| [full-pool coverage](results/study_coverage.tsv) | Full-pool counts and equal-weight means across communities within each study. Includes D’hoe et al. |
 
-Each archive has a manifest with a SHA-256 for every member. The EC run generated 350,265 product rows from 10,422 contexts. The sequence-linked sensitivity run generated 67,780 rows from 833 inputs. The selected studies yielded 83 of 114 enriched observations for EC-constrained generation and 70 of 114 for native GEM. These denominators count condition–metabolite observations. D’hoe et al. are represented in the study-level sensitivity table.
+Each archive includes a SHA-256 for every member. The [candidate budgets](results/ranking_budgets.tsv) count retained rows across all generation inputs.
 
 ## Reproduce
 
-Run from the repository root. Install the requirements, then verify the archived results by recomputing matches from the original candidate products and solver output.
+Run from the repository root after the [repository installation](../../README.md#install-and-run). The verification commands check archived candidate matches, solver outputs and frozen model scores.
 
 ```bash
 python -m pip install -r benchmarks/defined_communities/requirements.txt
 python benchmarks/defined_communities/benchmark.py verify
+python benchmarks/defined_communities/ranking.py verify
 ```
 
 For a rerun, the assay command fetches the original source files and rebuilds the assay panel. The model command extracts the required AGORA2 2.01 SBML members from the VMH archive. The generation command uses the [released input archive](https://github.com/Selenefreeze/BioRxnGen/releases/download/v1.0.0/model_and_generation_inputs.zip), including its directional rules and split assignments. Pass the archive path to the command below.
@@ -28,6 +32,7 @@ For a rerun, the assay command fetches the original source files and rebuilds th
 python benchmarks/defined_communities/benchmark.py assays --output output/community/assays
 python benchmarks/defined_communities/benchmark.py fetch-models --output output/community/models
 python benchmarks/defined_communities/benchmark.py generate --reference-archive model_and_generation_inputs.zip --output output/community/generation
+python benchmarks/defined_communities/ranking.py score --generation output/community/generation --output output/community/ranking
 python benchmarks/defined_communities/benchmark.py gem --models output/community/models --output output/community/gem
 ```
 

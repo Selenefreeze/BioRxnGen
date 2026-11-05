@@ -176,7 +176,8 @@ def replay_generation(reference, out, workers):
             destination = out / "ec" / label
             destination.mkdir(parents=True, exist_ok=True)
             cfg = json.loads((src / "settings.json").read_text())
-            tasks = [(file, destination, paths, cfg) for file in sorted(src.glob("*_pairs_*.parquet"))]
+            settings = {**cfg, "export_reranker_features": True}
+            tasks = [(file, destination, paths, settings) for file in sorted(src.glob("*_pairs_*.parquet"))]
             with ProcessPoolExecutor(max_workers=workers) as pool:
                 list(pool.map(generation_batch, tasks))
             subprocess.run([

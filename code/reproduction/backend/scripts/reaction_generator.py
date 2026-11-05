@@ -422,6 +422,9 @@ def generate_products(batch: pd.DataFrame, paths: dict[str, Path | None], cfg: d
                         "agora_overlap_status": "not_evaluated",
                         "edge_build_status": "pending_validation",
                     }
+                    if cfg.get("export_reranker_features", False):
+                        row["product_full_nonisomeric"] = product_side
+                        row["n_product_fragments"] = int(product.get("n_product_fragments") or 0)
                     esp_main = 1.0 if as_bool(row.get("passes_esp_main_gate")) else 0.0
                     esp_relaxed = 1.0 if as_bool(row.get("passes_esp_relaxed_gate")) else 0.0
                     rule_term = min(math.log1p(float(row["rule_train_count"])), 8.0) / 4.0

@@ -1,0 +1,442 @@
+study	cohort	analyte	structure_key	valid	enriched	best_rank	best_reactant_context_rank	best_rank_models	native_gem	native_reaction_products	native_exchange_mapped
+Weiss2023	OMM12_AF	2-Methylbutyric acid	CCC(C)C(=O)O	True	True	30	29	M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Enterococcus_faecalis_KB1|M_Lactobacillus_reuteri_I49	False	False	False
+Weiss2023	OMM12_AF	4-Methyl valeric acid	CC(C)CCC(=O)O	True	True				True	True	True
+Weiss2023	OMM12_AF	Acetic acid	CC(=O)O	True	True	1	1	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Lactobacillus_reuteri_I49|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_AF	Alanine	CC(N)C(=O)O	True	False	1	1	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Lactobacillus_reuteri_I49|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_AF	Arginine	N=C(N)NCCCC(N)C(=O)O	True	False				True	True	True
+Weiss2023	OMM12_AF	Asparagine	NC(=O)CC(N)C(=O)O	True	False	5	5	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Lactobacillus_reuteri_I49|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_AF	Aspartic acid	NC(CC(=O)O)C(=O)O	True	False	1	1	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Lactobacillus_reuteri_I49|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_AF	Butyric acid	CCCC(=O)O	True	True	26	26	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_AF	Desaminotyrosine	O=C(O)CCc1ccc(O)cc1	True	True				False	False	False
+Weiss2023	OMM12_AF	Glutamic acid	NC(CCC(=O)O)C(=O)O	True	False	1	1	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Lactobacillus_reuteri_I49|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_AF	Glutamine	NC(=O)CCC(N)C(=O)O	True	False	1	1	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Lactobacillus_reuteri_I49|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_AF	Histidine	NC(Cc1cnc[nH]1)C(=O)O	False	False				True	True	True
+Weiss2023	OMM12_AF	Isobutyric acid	CC(C)C(=O)O	True	False				True	True	True
+Weiss2023	OMM12_AF	Isoleucine/Leucine	CCC(C)C(N)C(=O)O|CC(C)CC(N)C(=O)O	False	False				True	True	True
+Weiss2023	OMM12_AF	Isovaleric acid	CC(C)CC(=O)O	True	True	48	11	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Flavonifractor_plautii_YL31|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_AF	Lactic acid	CC(O)C(=O)O	True	True	1	1	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Enterococcus_faecalis_KB1|M_Lactobacillus_reuteri_I49|M_Muribaculum_intestinale_YL27	True	True	True
+Weiss2023	OMM12_AF	Lysine	NCCCCC(N)C(=O)O	True	False	1	1	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Flavonifractor_plautii_YL31|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_AF	Methionine	CSCCC(N)C(=O)O	True	False	1	1	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Lactobacillus_reuteri_I49|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_AF	Phenylalanine	NC(Cc1ccccc1)C(=O)O	True	False				True	True	True
+Weiss2023	OMM12_AF	Proline	O=C(O)C1CCCN1	True	False	4	4	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Flavonifractor_plautii_YL31|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_AF	Propionic acid	CCC(=O)O	True	True	1	1	M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_AF	Serine	NC(CO)C(=O)O	True	False	1	1	M_Bacteroides_caecimuris_I48|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_AF	Succinic acid	O=C(O)CCC(=O)O	True	True	1	1	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Flavonifractor_plautii_YL31|M_Muribaculum_intestinale_YL27	True	True	True
+Weiss2023	OMM12_AF	Threonine	CC(O)C(N)C(=O)O	True	False	4	3	M_Acutalibacter_muris_KB18|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_AF	Tryptophane	NC(Cc1c[nH]c2ccccc12)C(=O)O	True	False				True	True	True
+Weiss2023	OMM12_AF	Tyrosine	NC(Cc1ccc(O)cc1)C(=O)O	True	False	2	2	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Lactobacillus_reuteri_I49|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_AF	Valeric acid	CCCCC(=O)O	True	False	28	28	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	False	False	False
+Weiss2023	OMM12_AF	Valine	CC(C)C(N)C(=O)O	True	False	3	3	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Lactobacillus_reuteri_I49|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_APF	2-Methylbutyric acid	CCC(C)C(=O)O	True	True	30	29	M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Enterococcus_faecalis_KB1|M_Lactobacillus_reuteri_I49	False	False	False
+Weiss2023	OMM12_APF	4-Methyl valeric acid	CC(C)CCC(=O)O	True	False				True	True	True
+Weiss2023	OMM12_APF	Acetic acid	CC(=O)O	True	True	1	1	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Lactobacillus_reuteri_I49|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_APF	Alanine	CC(N)C(=O)O	True	True	1	1	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Lactobacillus_reuteri_I49|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_APF	Arginine	N=C(N)NCCCC(N)C(=O)O	True	False				True	True	True
+Weiss2023	OMM12_APF	Asparagine	NC(=O)CC(N)C(=O)O	False	False	5	5	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Lactobacillus_reuteri_I49|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_APF	Aspartic acid	NC(CC(=O)O)C(=O)O	False	False	1	1	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Lactobacillus_reuteri_I49|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_APF	Butyric acid	CCCC(=O)O	True	True	26	26	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_APF	Desaminotyrosine	O=C(O)CCc1ccc(O)cc1	True	False				False	False	False
+Weiss2023	OMM12_APF	Glutamic acid	NC(CCC(=O)O)C(=O)O	True	False	1	1	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Lactobacillus_reuteri_I49|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_APF	Glutamine	NC(=O)CCC(N)C(=O)O	True	False	1	1	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Lactobacillus_reuteri_I49|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_APF	Histidine	NC(Cc1cnc[nH]1)C(=O)O	False	False				True	True	True
+Weiss2023	OMM12_APF	Isobutyric acid	CC(C)C(=O)O	True	True				True	True	True
+Weiss2023	OMM12_APF	Isoleucine/Leucine	CCC(C)C(N)C(=O)O|CC(C)CC(N)C(=O)O	False	False				True	True	True
+Weiss2023	OMM12_APF	Isovaleric acid	CC(C)CC(=O)O	True	True	48	11	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Flavonifractor_plautii_YL31|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_APF	Lactic acid	CC(O)C(=O)O	True	True	1	1	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Enterococcus_faecalis_KB1|M_Lactobacillus_reuteri_I49|M_Muribaculum_intestinale_YL27	True	True	True
+Weiss2023	OMM12_APF	Lysine	NCCCCC(N)C(=O)O	True	False	1	1	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Flavonifractor_plautii_YL31|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_APF	Methionine	CSCCC(N)C(=O)O	True	True	1	1	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Lactobacillus_reuteri_I49|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_APF	Phenylalanine	NC(Cc1ccccc1)C(=O)O	True	False				True	True	True
+Weiss2023	OMM12_APF	Proline	O=C(O)C1CCCN1	True	True	4	4	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Flavonifractor_plautii_YL31|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_APF	Propionic acid	CCC(=O)O	True	True	1	1	M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_APF	Serine	NC(CO)C(=O)O	True	False	1	1	M_Bacteroides_caecimuris_I48|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_APF	Succinic acid	O=C(O)CCC(=O)O	True	True	1	1	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Flavonifractor_plautii_YL31|M_Muribaculum_intestinale_YL27	True	True	True
+Weiss2023	OMM12_APF	Threonine	CC(O)C(N)C(=O)O	True	True	4	3	M_Acutalibacter_muris_KB18|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_APF	Tryptophane	NC(Cc1c[nH]c2ccccc12)C(=O)O	True	False				True	True	True
+Weiss2023	OMM12_APF	Tyrosine	NC(Cc1ccc(O)cc1)C(=O)O	True	True	2	2	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Lactobacillus_reuteri_I49|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Weiss2023	OMM12_APF	Valeric acid	CCCCC(=O)O	True	False	28	28	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	False	False	False
+Weiss2023	OMM12_APF	Valine	CC(C)C(N)C(=O)O	True	False	3	3	M_Acutalibacter_muris_KB18|M_Akkermansia_muciniphila_YL44|M_Bacteroides_caecimuris_I48|M_Bifidobacterium_animalis_subsp_animalis_YL2|M_Blautia_coccoides_YL58|M_Clostridium_clostridioforme_YL32|M_Clostridium_innocuum_I46|M_Enterococcus_faecalis_KB1|M_Flavonifractor_plautii_YL31|M_Lactobacillus_reuteri_I49|M_Muribaculum_intestinale_YL27|M_Turicimonas_muris_YL45	True	True	True
+Medlock2018	ASF_356_361	Valine	CC(C)C(N)C(=O)O	True	False	3	3	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	False	True	True
+Medlock2018	ASF_356_361	Alanine	CC(N)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_356_361	Methionine	CSCCC(N)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	False	True	True
+Medlock2018	ASF_356_361	Asparagine	NC(=O)CC(N)C(=O)O	True	False	5	5	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	False	True	False
+Medlock2018	ASF_356_361	Lysine	NCCCCC(N)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356	True	True	True
+Medlock2018	ASF_356_361	Proline	O=C(O)C1CCCN1	True	False	4	4	M_Clostridium_sp_ASF356	True	True	True
+Medlock2018	ASF_356_361	Serine	NC(CO)C(=O)O	True	False	2	2	M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_356_361	Threonine	CC(O)C(N)C(=O)O	True	False	4	3	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	False	True	False
+Medlock2018	ASF_356_361	Tyrosine	NC(Cc1ccc(O)cc1)C(=O)O	True	False	2	2	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_356_361	Histidine	NC(Cc1cnc[nH]1)C(=O)O	True	False				True	True	True
+Medlock2018	ASF_356_361	Phenylalanine	NC(Cc1ccccc1)C(=O)O	True	False				True	True	True
+Medlock2018	ASF_356_361	Butyrate	CCCC(=O)O	True	False	26	26	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	False	True	False
+Medlock2018	ASF_356_361	Isovalerate	CC(C)CC(=O)O	True	False	48	11	M_Clostridium_sp_ASF356	False	False	False
+Medlock2018	ASF_356_361	Leucine	CC(C)CC(N)C(=O)O	True	False				True	True	True
+Medlock2018	ASF_356_361	Isoleucine	CCC(C)C(N)C(=O)O	True	False				False	True	True
+Medlock2018	ASF_356_361	Propionate	CCC(=O)O	True	True	1	1	M_Clostridium_sp_ASF356	False	True	False
+Medlock2018	ASF_356_361	Ethanol	CCO	True	False	4	2	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_356_361	Lactate	CC(O)C(=O)O	True	True	1	1	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_356_361	Isocaproate	CC(C)CCC(=O)O	True	False				False	False	False
+Medlock2018	ASF_356_361	Acetate	CC(=O)O	True	True	2	1	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_356_361	Glutamate	NC(CCC(=O)O)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_356_361	Isobutyrate	CC(C)C(=O)O	True	False				False	False	False
+Medlock2018	ASF_356_361	Succinate	O=C(O)CCC(=O)O	True	False	1	1	M_Clostridium_sp_ASF356	True	True	True
+Medlock2018	ASF_356_361	2-Oxoisocaproate	CC(C)CC(=O)C(=O)O	True	False				False	True	False
+Medlock2018	ASF_356_361	Aspartate	NC(CC(=O)O)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_356_361	Choline	C[N+](C)(C)CCO	True	False	1	1	M_Lactobacillus_murinus_ASF361	False	True	False
+Medlock2018	ASF_356_361	Cystine	NC(CSSCC(N)C(=O)O)C(=O)O	True	False				False	False	False
+Medlock2018	ASF_356_361	Glycine	NCC(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_356_361	Glycerol	OCC(O)CO	True	False	2	2	M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_356_361	Betaine	C[N+](C)(C)CC(=O)[O-]	True	False				False	False	True
+Medlock2018	ASF_356_361	Isopropanol	CC(C)O	True	False	9	5	M_Clostridium_sp_ASF356	False	False	False
+Medlock2018	ASF_356_361	Pyroglutamate	O=C1CCC(C(=O)O)N1	True	False	5	2	M_Clostridium_sp_ASF356	False	False	False
+Medlock2018	ASF_356_361	Trehalose	OCC1OC(OC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O	True	False				False	True	True
+Medlock2018	ASF_356_361	Lactose	OCC1OC(OC2C(CO)OC(O)C(O)C2O)C(O)C(O)C1O	True	False	6	6	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	False	True	True
+Medlock2018	ASF_356_361	Uracil	O=c1cc[nH]c(=O)[nH]1	True	False				True	True	True
+Medlock2018	ASF_356_361	Uridine	O=c1ccn(C2OC(CO)C(O)C2O)c(=O)[nH]1	True	False				False	True	False
+Medlock2018	ASF_356_361	Cytosine	Nc1cc[nH]c(=O)n1	True	False				False	True	True
+Medlock2018	ASF_356_361	Cytidine	Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1	True	False	14	6	M_Clostridium_sp_ASF356	False	True	False
+Medlock2018	ASF_356_361	Adenosine	Nc1ncnc2c1ncn2C1OC(CO)C(O)C1O	True	False	2	2	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	False	True	False
+Medlock2018	ASF_356_361	Inosine	O=c1[nH]cnc2c1ncn2C1OC(CO)C(O)C1O	True	False	1	1	M_Lactobacillus_murinus_ASF361	False	True	False
+Medlock2018	ASF_356_361	Urocanate	O=C(O)C=Cc1cnc[nH]1	True	False				False	False	False
+Medlock2018	ASF_356_361	Fumarate	O=C(O)C=CC(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_356_361	Tyramine	NCCc1ccc(O)cc1	True	False	19	19	M_Lactobacillus_murinus_ASF361	False	False	False
+Medlock2018	ASF_356_361	Tryptophan	NC(Cc1c[nH]c2ccccc12)C(=O)O	True	False				False	True	True
+Medlock2018	ASF_356_361	UMP	O=c1ccn(C2OC(COP(=O)(O)O)C(O)C2O)c(=O)[nH]1	True	False				False	True	False
+Medlock2018	ASF_356_361	Hypoxanthine	O=c1[nH]cnc2[nH]cnc12	True	True				False	True	True
+Medlock2018	ASF_356_361	Adenine	Nc1ncnc2[nH]cnc12	True	True				False	True	False
+Medlock2018	ASF_356_361	Formate	O=CO	True	True	2	2	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_356_361	AMP	Nc1ncnc2c1ncn2C1OC(COP(=O)(O)O)C(O)C1O	True	True				False	True	False
+Medlock2018	ASF_356_361	Nicotinate	O=C(O)c1cccnc1	True	True	2	2	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	False	True	True
+Medlock2018	ASF_356_361	Nicotinamide	NC(=O)c1cccnc1	True	False				False	True	False
+Medlock2018	ASF_356_361_519	Valine	CC(C)C(N)C(=O)O	True	False	3	3	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	False	True	True
+Medlock2018	ASF_356_361_519	Alanine	CC(N)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_361_519	Methionine	CSCCC(N)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	False	True	True
+Medlock2018	ASF_356_361_519	Asparagine	NC(=O)CC(N)C(=O)O	True	False	5	5	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_356_361_519	Lysine	NCCCCC(N)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_361_519	Proline	O=C(O)C1CCCN1	True	False	4	4	M_Clostridium_sp_ASF356	True	True	True
+Medlock2018	ASF_356_361_519	Serine	NC(CO)C(=O)O	True	False	1	1	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_361_519	Threonine	CC(O)C(N)C(=O)O	True	False	4	3	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_361_519	Tyrosine	NC(Cc1ccc(O)cc1)C(=O)O	True	False	2	2	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_361_519	Histidine	NC(Cc1cnc[nH]1)C(=O)O	True	True				True	True	True
+Medlock2018	ASF_356_361_519	Phenylalanine	NC(Cc1ccccc1)C(=O)O	True	False				True	True	True
+Medlock2018	ASF_356_361_519	Butyrate	CCCC(=O)O	True	False	26	26	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_356_361_519	Isovalerate	CC(C)CC(=O)O	True	False	48	11	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	False	False	False
+Medlock2018	ASF_356_361_519	Leucine	CC(C)CC(N)C(=O)O	True	False				True	True	True
+Medlock2018	ASF_356_361_519	Isoleucine	CCC(C)C(N)C(=O)O	True	False				False	True	True
+Medlock2018	ASF_356_361_519	Propionate	CCC(=O)O	True	True	1	1	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_361_519	Ethanol	CCO	True	False	4	2	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_361_519	Lactate	CC(O)C(=O)O	True	True	1	1	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_361_519	Isocaproate	CC(C)CCC(=O)O	True	False				False	False	False
+Medlock2018	ASF_356_361_519	Acetate	CC(=O)O	True	True	1	1	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_361_519	Glutamate	NC(CCC(=O)O)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_361_519	Isobutyrate	CC(C)C(=O)O	True	False				False	False	False
+Medlock2018	ASF_356_361_519	Succinate	O=C(O)CCC(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_361_519	2-Oxoisocaproate	CC(C)CC(=O)C(=O)O	True	False				False	True	False
+Medlock2018	ASF_356_361_519	Aspartate	NC(CC(=O)O)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_361_519	Choline	C[N+](C)(C)CCO	True	False	1	1	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_356_361_519	Cystine	NC(CSSCC(N)C(=O)O)C(=O)O	True	False				False	False	False
+Medlock2018	ASF_356_361_519	Glycine	NCC(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_361_519	Glycerol	OCC(O)CO	True	False	2	2	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_361_519	Betaine	C[N+](C)(C)CC(=O)[O-]	True	False				False	False	True
+Medlock2018	ASF_356_361_519	Isopropanol	CC(C)O	True	False	9	5	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	False	False	False
+Medlock2018	ASF_356_361_519	Pyroglutamate	O=C1CCC(C(=O)O)N1	True	False	5	2	M_Clostridium_sp_ASF356	False	False	False
+Medlock2018	ASF_356_361_519	Trehalose	OCC1OC(OC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O	True	False				False	True	True
+Medlock2018	ASF_356_361_519	Lactose	OCC1OC(OC2C(CO)OC(O)C(O)C2O)C(O)C(O)C1O	True	False	6	6	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	False	True	True
+Medlock2018	ASF_356_361_519	Uracil	O=c1cc[nH]c(=O)[nH]1	True	False				True	True	True
+Medlock2018	ASF_356_361_519	Uridine	O=c1ccn(C2OC(CO)C(O)C2O)c(=O)[nH]1	True	False	3	3	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_361_519	Cytosine	Nc1cc[nH]c(=O)n1	True	True				False	True	True
+Medlock2018	ASF_356_361_519	Cytidine	Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1	True	False	12	5	M_Parabacteroides_sp_ASF519	False	True	True
+Medlock2018	ASF_356_361_519	Adenosine	Nc1ncnc2c1ncn2C1OC(CO)C(O)C1O	True	False	1	1	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_361_519	Inosine	O=c1[nH]cnc2c1ncn2C1OC(CO)C(O)C1O	True	False	1	1	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_361_519	Urocanate	O=C(O)C=Cc1cnc[nH]1	True	False	1	1	M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_356_361_519	Fumarate	O=C(O)C=CC(=O)O	True	True	1	1	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_361_519	Tyramine	NCCc1ccc(O)cc1	True	False	19	19	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	False	False	False
+Medlock2018	ASF_356_361_519	Tryptophan	NC(Cc1c[nH]c2ccccc12)C(=O)O	True	False				False	True	True
+Medlock2018	ASF_356_361_519	UMP	O=c1ccn(C2OC(COP(=O)(O)O)C(O)C2O)c(=O)[nH]1	True	True				False	True	False
+Medlock2018	ASF_356_361_519	Hypoxanthine	O=c1[nH]cnc2[nH]cnc12	True	False				False	True	True
+Medlock2018	ASF_356_361_519	Adenine	Nc1ncnc2[nH]cnc12	True	True				False	True	False
+Medlock2018	ASF_356_361_519	Formate	O=CO	True	True	2	2	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_356_361_519	AMP	Nc1ncnc2c1ncn2C1OC(COP(=O)(O)O)C(O)C1O	True	True				False	True	False
+Medlock2018	ASF_356_361_519	Nicotinate	O=C(O)c1cccnc1	True	True	2	2	M_Clostridium_sp_ASF356|M_Lactobacillus_murinus_ASF361	False	True	True
+Medlock2018	ASF_356_361_519	Nicotinamide	NC(=O)c1cccnc1	True	False				False	True	False
+Medlock2018	ASF_356_492	Valine	CC(C)C(N)C(=O)O	True	False	3	3	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	False	True	True
+Medlock2018	ASF_356_492	Alanine	CC(N)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_356_492	Methionine	CSCCC(N)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_356_492	Asparagine	NC(=O)CC(N)C(=O)O	True	False	5	5	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	False	True	False
+Medlock2018	ASF_356_492	Lysine	NCCCCC(N)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	False	True	False
+Medlock2018	ASF_356_492	Proline	O=C(O)C1CCCN1	True	False	4	4	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_356_492	Serine	NC(CO)C(=O)O	True	False	14	11	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_356_492	Threonine	CC(O)C(N)C(=O)O	True	False	4	3	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	False	True	False
+Medlock2018	ASF_356_492	Tyrosine	NC(Cc1ccc(O)cc1)C(=O)O	True	False	2	2	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_356_492	Histidine	NC(Cc1cnc[nH]1)C(=O)O	True	False				True	True	True
+Medlock2018	ASF_356_492	Phenylalanine	NC(Cc1ccccc1)C(=O)O	True	False				True	True	True
+Medlock2018	ASF_356_492	Butyrate	CCCC(=O)O	True	False	26	26	M_Clostridium_sp_ASF356	True	True	True
+Medlock2018	ASF_356_492	Isovalerate	CC(C)CC(=O)O	True	True	48	11	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	False	False	False
+Medlock2018	ASF_356_492	Leucine	CC(C)CC(N)C(=O)O	True	False				True	True	True
+Medlock2018	ASF_356_492	Isoleucine	CCC(C)C(N)C(=O)O	True	False				False	True	True
+Medlock2018	ASF_356_492	Propionate	CCC(=O)O	True	True	1	1	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	False	True	False
+Medlock2018	ASF_356_492	Ethanol	CCO	True	False	4	2	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_356_492	Lactate	CC(O)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_356_492	Isocaproate	CC(C)CCC(=O)O	True	True				False	False	False
+Medlock2018	ASF_356_492	Acetate	CC(=O)O	True	True	1	1	M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_356_492	Glutamate	NC(CCC(=O)O)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_356_492	Isobutyrate	CC(C)C(=O)O	True	True				False	False	False
+Medlock2018	ASF_356_492	Succinate	O=C(O)CCC(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_356_492	2-Oxoisocaproate	CC(C)CC(=O)C(=O)O	True	False				False	True	False
+Medlock2018	ASF_356_492	Aspartate	NC(CC(=O)O)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_356_492	Choline	C[N+](C)(C)CCO	True	False	1	1	M_Eubacterium_plexicaudatum_ASF492	False	True	False
+Medlock2018	ASF_356_492	Cystine	NC(CSSCC(N)C(=O)O)C(=O)O	True	False				False	False	False
+Medlock2018	ASF_356_492	Glycine	NCC(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	False	True	False
+Medlock2018	ASF_356_492	Glycerol	OCC(O)CO	True	False	2	2	M_Eubacterium_plexicaudatum_ASF492	False	True	False
+Medlock2018	ASF_356_492	Betaine	C[N+](C)(C)CC(=O)[O-]	True	False				False	False	False
+Medlock2018	ASF_356_492	Isopropanol	CC(C)O	True	False	9	5	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	False	False	False
+Medlock2018	ASF_356_492	Pyroglutamate	O=C1CCC(C(=O)O)N1	True	False	5	2	M_Clostridium_sp_ASF356	False	False	False
+Medlock2018	ASF_356_492	Trehalose	OCC1OC(OC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O	True	False				False	False	True
+Medlock2018	ASF_356_492	Lactose	OCC1OC(OC2C(CO)OC(O)C(O)C2O)C(O)C(O)C1O	True	False	6	6	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	False	True	True
+Medlock2018	ASF_356_492	Uracil	O=c1cc[nH]c(=O)[nH]1	True	False				True	True	True
+Medlock2018	ASF_356_492	Uridine	O=c1ccn(C2OC(CO)C(O)C2O)c(=O)[nH]1	True	False	11	11	M_Eubacterium_plexicaudatum_ASF492	False	True	False
+Medlock2018	ASF_356_492	Cytosine	Nc1cc[nH]c(=O)n1	True	False				False	False	True
+Medlock2018	ASF_356_492	Cytidine	Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1	True	False	8	4	M_Eubacterium_plexicaudatum_ASF492	False	True	False
+Medlock2018	ASF_356_492	Adenosine	Nc1ncnc2c1ncn2C1OC(CO)C(O)C1O	True	False	2	2	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	False	True	False
+Medlock2018	ASF_356_492	Inosine	O=c1[nH]cnc2c1ncn2C1OC(CO)C(O)C1O	True	True				False	True	False
+Medlock2018	ASF_356_492	Urocanate	O=C(O)C=Cc1cnc[nH]1	True	False				False	False	False
+Medlock2018	ASF_356_492	Fumarate	O=C(O)C=CC(=O)O	False	False	1	1	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_356_492	Tyramine	NCCc1ccc(O)cc1	True	False				False	False	False
+Medlock2018	ASF_356_492	Tryptophan	NC(Cc1c[nH]c2ccccc12)C(=O)O	True	False				False	True	True
+Medlock2018	ASF_356_492	UMP	O=c1ccn(C2OC(COP(=O)(O)O)C(O)C2O)c(=O)[nH]1	True	False				False	True	False
+Medlock2018	ASF_356_492	Hypoxanthine	O=c1[nH]cnc2[nH]cnc12	True	True				False	True	True
+Medlock2018	ASF_356_492	Adenine	Nc1ncnc2[nH]cnc12	True	True				False	True	False
+Medlock2018	ASF_356_492	Formate	O=CO	True	False	2	2	M_Clostridium_sp_ASF356|M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_356_492	AMP	Nc1ncnc2c1ncn2C1OC(COP(=O)(O)O)C(O)C1O	True	False				False	True	False
+Medlock2018	ASF_356_492	Nicotinate	O=C(O)c1cccnc1	True	True	2	2	M_Clostridium_sp_ASF356	False	True	True
+Medlock2018	ASF_356_492	Nicotinamide	NC(=O)c1cccnc1	True	False				False	True	False
+Medlock2018	ASF_356_519	Valine	CC(C)C(N)C(=O)O	True	False	3	3	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	False	True	True
+Medlock2018	ASF_356_519	Alanine	CC(N)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_519	Methionine	CSCCC(N)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	False	True	True
+Medlock2018	ASF_356_519	Asparagine	NC(=O)CC(N)C(=O)O	True	False	5	5	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_356_519	Lysine	NCCCCC(N)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_519	Proline	O=C(O)C1CCCN1	True	True	4	4	M_Clostridium_sp_ASF356	True	True	True
+Medlock2018	ASF_356_519	Serine	NC(CO)C(=O)O	True	False	1	1	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_519	Threonine	CC(O)C(N)C(=O)O	True	False	4	3	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_519	Tyrosine	NC(Cc1ccc(O)cc1)C(=O)O	True	False	2	2	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_519	Histidine	NC(Cc1cnc[nH]1)C(=O)O	True	True				False	True	False
+Medlock2018	ASF_356_519	Phenylalanine	NC(Cc1ccccc1)C(=O)O	True	False				True	True	True
+Medlock2018	ASF_356_519	Butyrate	CCCC(=O)O	True	False	26	26	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_356_519	Isovalerate	CC(C)CC(=O)O	True	True	48	11	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	False	False	False
+Medlock2018	ASF_356_519	Leucine	CC(C)CC(N)C(=O)O	True	False				True	True	True
+Medlock2018	ASF_356_519	Isoleucine	CCC(C)C(N)C(=O)O	True	False				False	True	True
+Medlock2018	ASF_356_519	Propionate	CCC(=O)O	True	True	1	1	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_519	Ethanol	CCO	True	False	4	2	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_519	Lactate	CC(O)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_356_519	Isocaproate	CC(C)CCC(=O)O	True	True				False	False	False
+Medlock2018	ASF_356_519	Acetate	CC(=O)O	True	True	1	1	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_519	Glutamate	NC(CCC(=O)O)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_519	Isobutyrate	CC(C)C(=O)O	True	True				False	False	False
+Medlock2018	ASF_356_519	Succinate	O=C(O)CCC(=O)O	True	True	1	1	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_519	2-Oxoisocaproate	CC(C)CC(=O)C(=O)O	True	False				False	True	False
+Medlock2018	ASF_356_519	Aspartate	NC(CC(=O)O)C(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_519	Choline	C[N+](C)(C)CCO	True	False	1	1	M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_356_519	Cystine	NC(CSSCC(N)C(=O)O)C(=O)O	True	False				False	False	False
+Medlock2018	ASF_356_519	Glycine	NCC(=O)O	True	False	1	1	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_519	Glycerol	OCC(O)CO	True	False	2	2	M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_356_519	Betaine	C[N+](C)(C)CC(=O)[O-]	True	False				False	False	True
+Medlock2018	ASF_356_519	Isopropanol	CC(C)O	True	False	9	5	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	False	False	False
+Medlock2018	ASF_356_519	Pyroglutamate	O=C1CCC(C(=O)O)N1	True	False	5	2	M_Clostridium_sp_ASF356	False	False	False
+Medlock2018	ASF_356_519	Trehalose	OCC1OC(OC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O	True	False				False	False	True
+Medlock2018	ASF_356_519	Lactose	OCC1OC(OC2C(CO)OC(O)C(O)C2O)C(O)C(O)C1O	True	False	6	6	M_Clostridium_sp_ASF356	False	False	True
+Medlock2018	ASF_356_519	Uracil	O=c1cc[nH]c(=O)[nH]1	True	False				True	True	True
+Medlock2018	ASF_356_519	Uridine	O=c1ccn(C2OC(CO)C(O)C2O)c(=O)[nH]1	True	False	3	3	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_519	Cytosine	Nc1cc[nH]c(=O)n1	True	False				False	False	True
+Medlock2018	ASF_356_519	Cytidine	Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1	True	False	12	5	M_Parabacteroides_sp_ASF519	False	True	True
+Medlock2018	ASF_356_519	Adenosine	Nc1ncnc2c1ncn2C1OC(CO)C(O)C1O	True	False	1	1	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_519	Inosine	O=c1[nH]cnc2c1ncn2C1OC(CO)C(O)C1O	True	False	1	1	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_519	Urocanate	O=C(O)C=Cc1cnc[nH]1	True	True	1	1	M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_356_519	Fumarate	O=C(O)C=CC(=O)O	True	True	1	1	M_Clostridium_sp_ASF356|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_356_519	Tyramine	NCCc1ccc(O)cc1	True	False	19	19	M_Parabacteroides_sp_ASF519	False	False	False
+Medlock2018	ASF_356_519	Tryptophan	NC(Cc1c[nH]c2ccccc12)C(=O)O	True	False				False	True	True
+Medlock2018	ASF_356_519	UMP	O=c1ccn(C2OC(COP(=O)(O)O)C(O)C2O)c(=O)[nH]1	True	False				False	True	False
+Medlock2018	ASF_356_519	Hypoxanthine	O=c1[nH]cnc2[nH]cnc12	True	True				False	True	True
+Medlock2018	ASF_356_519	Adenine	Nc1ncnc2[nH]cnc12	True	True				False	True	False
+Medlock2018	ASF_356_519	Formate	O=CO	True	True	2	2	M_Clostridium_sp_ASF356	True	True	True
+Medlock2018	ASF_356_519	AMP	Nc1ncnc2c1ncn2C1OC(COP(=O)(O)O)C(O)C1O	True	False				False	True	False
+Medlock2018	ASF_356_519	Nicotinate	O=C(O)c1cccnc1	True	True	2	2	M_Clostridium_sp_ASF356	False	True	True
+Medlock2018	ASF_356_519	Nicotinamide	NC(=O)c1cccnc1	True	False				False	True	False
+Medlock2018	ASF_361_492	Valine	CC(C)C(N)C(=O)O	True	False	3	3	M_Eubacterium_plexicaudatum_ASF492|M_Lactobacillus_murinus_ASF361	False	True	True
+Medlock2018	ASF_361_492	Alanine	CC(N)C(=O)O	True	False	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_361_492	Methionine	CSCCC(N)C(=O)O	True	False	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_361_492	Asparagine	NC(=O)CC(N)C(=O)O	True	False	5	5	M_Eubacterium_plexicaudatum_ASF492|M_Lactobacillus_murinus_ASF361	False	True	False
+Medlock2018	ASF_361_492	Lysine	NCCCCC(N)C(=O)O	True	False	1	1	M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_361_492	Proline	O=C(O)C1CCCN1	True	False	4	4	M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_361_492	Serine	NC(CO)C(=O)O	True	False	2	2	M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_361_492	Threonine	CC(O)C(N)C(=O)O	True	False	4	3	M_Eubacterium_plexicaudatum_ASF492|M_Lactobacillus_murinus_ASF361	False	True	False
+Medlock2018	ASF_361_492	Tyrosine	NC(Cc1ccc(O)cc1)C(=O)O	True	False	2	2	M_Eubacterium_plexicaudatum_ASF492|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_361_492	Histidine	NC(Cc1cnc[nH]1)C(=O)O	True	False				True	True	True
+Medlock2018	ASF_361_492	Phenylalanine	NC(Cc1ccccc1)C(=O)O	True	False				True	True	True
+Medlock2018	ASF_361_492	Butyrate	CCCC(=O)O	True	False	26	26	M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_361_492	Isovalerate	CC(C)CC(=O)O	True	False	48	11	M_Eubacterium_plexicaudatum_ASF492	False	False	False
+Medlock2018	ASF_361_492	Leucine	CC(C)CC(N)C(=O)O	True	False				True	True	True
+Medlock2018	ASF_361_492	Isoleucine	CCC(C)C(N)C(=O)O	True	False				False	True	True
+Medlock2018	ASF_361_492	Propionate	CCC(=O)O	True	False	1	1	M_Eubacterium_plexicaudatum_ASF492	False	True	False
+Medlock2018	ASF_361_492	Ethanol	CCO	True	False	4	2	M_Eubacterium_plexicaudatum_ASF492|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_361_492	Lactate	CC(O)C(=O)O	True	True	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_361_492	Isocaproate	CC(C)CCC(=O)O	True	False				False	False	False
+Medlock2018	ASF_361_492	Acetate	CC(=O)O	True	False	1	1	M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_361_492	Glutamate	NC(CCC(=O)O)C(=O)O	True	False	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_361_492	Isobutyrate	CC(C)C(=O)O	True	False				False	False	False
+Medlock2018	ASF_361_492	Succinate	O=C(O)CCC(=O)O	True	False	1	1	M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_361_492	2-Oxoisocaproate	CC(C)CC(=O)C(=O)O	True	False				False	True	False
+Medlock2018	ASF_361_492	Aspartate	NC(CC(=O)O)C(=O)O	True	False	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Lactobacillus_murinus_ASF361	False	True	False
+Medlock2018	ASF_361_492	Choline	C[N+](C)(C)CCO	True	False	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Lactobacillus_murinus_ASF361	False	True	False
+Medlock2018	ASF_361_492	Cystine	NC(CSSCC(N)C(=O)O)C(=O)O	True	False				False	False	False
+Medlock2018	ASF_361_492	Glycine	NCC(=O)O	True	False	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_361_492	Glycerol	OCC(O)CO	True	False	2	2	M_Eubacterium_plexicaudatum_ASF492|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_361_492	Betaine	C[N+](C)(C)CC(=O)[O-]	True	False				False	False	True
+Medlock2018	ASF_361_492	Isopropanol	CC(C)O	True	False	9	5	M_Eubacterium_plexicaudatum_ASF492	False	False	False
+Medlock2018	ASF_361_492	Pyroglutamate	O=C1CCC(C(=O)O)N1	True	False	7	2	M_Eubacterium_plexicaudatum_ASF492|M_Lactobacillus_murinus_ASF361	False	False	False
+Medlock2018	ASF_361_492	Trehalose	OCC1OC(OC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O	True	False				False	True	True
+Medlock2018	ASF_361_492	Lactose	OCC1OC(OC2C(CO)OC(O)C(O)C2O)C(O)C(O)C1O	True	False	6	6	M_Eubacterium_plexicaudatum_ASF492|M_Lactobacillus_murinus_ASF361	False	True	True
+Medlock2018	ASF_361_492	Uracil	O=c1cc[nH]c(=O)[nH]1	True	False				False	True	True
+Medlock2018	ASF_361_492	Uridine	O=c1ccn(C2OC(CO)C(O)C2O)c(=O)[nH]1	True	False	11	11	M_Eubacterium_plexicaudatum_ASF492	False	True	False
+Medlock2018	ASF_361_492	Cytosine	Nc1cc[nH]c(=O)n1	True	True				False	True	True
+Medlock2018	ASF_361_492	Cytidine	Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1	True	False	8	4	M_Eubacterium_plexicaudatum_ASF492	False	True	False
+Medlock2018	ASF_361_492	Adenosine	Nc1ncnc2c1ncn2C1OC(CO)C(O)C1O	True	False	2	2	M_Eubacterium_plexicaudatum_ASF492|M_Lactobacillus_murinus_ASF361	False	True	False
+Medlock2018	ASF_361_492	Inosine	O=c1[nH]cnc2c1ncn2C1OC(CO)C(O)C1O	True	False	1	1	M_Lactobacillus_murinus_ASF361	False	True	False
+Medlock2018	ASF_361_492	Urocanate	O=C(O)C=Cc1cnc[nH]1	True	False				False	False	False
+Medlock2018	ASF_361_492	Fumarate	O=C(O)C=CC(=O)O	True	False	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_361_492	Tyramine	NCCc1ccc(O)cc1	True	False	19	19	M_Lactobacillus_murinus_ASF361	False	False	False
+Medlock2018	ASF_361_492	Tryptophan	NC(Cc1c[nH]c2ccccc12)C(=O)O	True	False				False	True	True
+Medlock2018	ASF_361_492	UMP	O=c1ccn(C2OC(COP(=O)(O)O)C(O)C2O)c(=O)[nH]1	True	False				False	True	False
+Medlock2018	ASF_361_492	Hypoxanthine	O=c1[nH]cnc2[nH]cnc12	True	False				False	True	True
+Medlock2018	ASF_361_492	Adenine	Nc1ncnc2[nH]cnc12	True	True				False	True	False
+Medlock2018	ASF_361_492	Formate	O=CO	True	True	2	2	M_Eubacterium_plexicaudatum_ASF492|M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_361_492	AMP	Nc1ncnc2c1ncn2C1OC(COP(=O)(O)O)C(O)C1O	True	False				False	True	False
+Medlock2018	ASF_361_492	Nicotinate	O=C(O)c1cccnc1	True	True	2	2	M_Lactobacillus_murinus_ASF361	False	True	True
+Medlock2018	ASF_361_492	Nicotinamide	NC(=O)c1cccnc1	True	False				False	True	False
+Medlock2018	ASF_361_519	Valine	CC(C)C(N)C(=O)O	True	False	3	3	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	False	True	True
+Medlock2018	ASF_361_519	Alanine	CC(N)C(=O)O	True	False	1	1	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_361_519	Methionine	CSCCC(N)C(=O)O	True	False	1	1	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	False	True	True
+Medlock2018	ASF_361_519	Asparagine	NC(=O)CC(N)C(=O)O	True	False	5	5	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_361_519	Lysine	NCCCCC(N)C(=O)O	True	False	1	1	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_361_519	Proline	O=C(O)C1CCCN1	True	True	59	59	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_361_519	Serine	NC(CO)C(=O)O	True	False	1	1	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_361_519	Threonine	CC(O)C(N)C(=O)O	True	False	4	3	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_361_519	Tyrosine	NC(Cc1ccc(O)cc1)C(=O)O	True	False	2	2	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_361_519	Histidine	NC(Cc1cnc[nH]1)C(=O)O	True	True				True	True	True
+Medlock2018	ASF_361_519	Phenylalanine	NC(Cc1ccccc1)C(=O)O	True	False				True	True	True
+Medlock2018	ASF_361_519	Butyrate	CCCC(=O)O	True	False	26	26	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	False	False	False
+Medlock2018	ASF_361_519	Isovalerate	CC(C)CC(=O)O	True	False	48	11	M_Parabacteroides_sp_ASF519	False	False	False
+Medlock2018	ASF_361_519	Leucine	CC(C)CC(N)C(=O)O	True	False				True	True	True
+Medlock2018	ASF_361_519	Isoleucine	CCC(C)C(N)C(=O)O	True	False				False	True	True
+Medlock2018	ASF_361_519	Propionate	CCC(=O)O	True	True	1	1	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_361_519	Ethanol	CCO	True	False	4	2	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_361_519	Lactate	CC(O)C(=O)O	True	True	1	1	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_361_519	Isocaproate	CC(C)CCC(=O)O	True	False				False	False	False
+Medlock2018	ASF_361_519	Acetate	CC(=O)O	True	True	1	1	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_361_519	Glutamate	NC(CCC(=O)O)C(=O)O	True	False	1	1	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_361_519	Isobutyrate	CC(C)C(=O)O	True	False				False	False	False
+Medlock2018	ASF_361_519	Succinate	O=C(O)CCC(=O)O	True	True	1	1	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_361_519	2-Oxoisocaproate	CC(C)CC(=O)C(=O)O	True	False				False	True	False
+Medlock2018	ASF_361_519	Aspartate	NC(CC(=O)O)C(=O)O	True	False	1	1	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_361_519	Choline	C[N+](C)(C)CCO	True	False	1	1	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_361_519	Cystine	NC(CSSCC(N)C(=O)O)C(=O)O	True	False				False	False	False
+Medlock2018	ASF_361_519	Glycine	NCC(=O)O	True	False	1	1	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_361_519	Glycerol	OCC(O)CO	True	False	2	2	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_361_519	Betaine	C[N+](C)(C)CC(=O)[O-]	True	False				False	False	True
+Medlock2018	ASF_361_519	Isopropanol	CC(C)O	True	False	9	5	M_Parabacteroides_sp_ASF519	False	False	False
+Medlock2018	ASF_361_519	Pyroglutamate	O=C1CCC(C(=O)O)N1	True	False	7	2	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	False	False	False
+Medlock2018	ASF_361_519	Trehalose	OCC1OC(OC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O	True	False				False	True	True
+Medlock2018	ASF_361_519	Lactose	OCC1OC(OC2C(CO)OC(O)C(O)C2O)C(O)C(O)C1O	True	False	6	6	M_Lactobacillus_murinus_ASF361	False	True	True
+Medlock2018	ASF_361_519	Uracil	O=c1cc[nH]c(=O)[nH]1	True	True				False	True	True
+Medlock2018	ASF_361_519	Uridine	O=c1ccn(C2OC(CO)C(O)C2O)c(=O)[nH]1	True	False	3	3	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_361_519	Cytosine	Nc1cc[nH]c(=O)n1	True	True				False	True	False
+Medlock2018	ASF_361_519	Cytidine	Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1	True	False	12	5	M_Parabacteroides_sp_ASF519	False	True	True
+Medlock2018	ASF_361_519	Adenosine	Nc1ncnc2c1ncn2C1OC(CO)C(O)C1O	True	False	1	1	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_361_519	Inosine	O=c1[nH]cnc2c1ncn2C1OC(CO)C(O)C1O	True	False	1	1	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_361_519	Urocanate	O=C(O)C=Cc1cnc[nH]1	True	True	1	1	M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_361_519	Fumarate	O=C(O)C=CC(=O)O	True	True	1	1	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	False	True	True
+Medlock2018	ASF_361_519	Tyramine	NCCc1ccc(O)cc1	True	False	19	19	M_Lactobacillus_murinus_ASF361|M_Parabacteroides_sp_ASF519	False	False	False
+Medlock2018	ASF_361_519	Tryptophan	NC(Cc1c[nH]c2ccccc12)C(=O)O	True	False				False	True	True
+Medlock2018	ASF_361_519	UMP	O=c1ccn(C2OC(COP(=O)(O)O)C(O)C2O)c(=O)[nH]1	True	False				False	True	False
+Medlock2018	ASF_361_519	Hypoxanthine	O=c1[nH]cnc2[nH]cnc12	True	False				False	True	True
+Medlock2018	ASF_361_519	Adenine	Nc1ncnc2[nH]cnc12	True	True				False	True	False
+Medlock2018	ASF_361_519	Formate	O=CO	True	True	2	2	M_Lactobacillus_murinus_ASF361	True	True	True
+Medlock2018	ASF_361_519	AMP	Nc1ncnc2c1ncn2C1OC(COP(=O)(O)O)C(O)C1O	True	True				False	True	False
+Medlock2018	ASF_361_519	Nicotinate	O=C(O)c1cccnc1	True	True	2	2	M_Lactobacillus_murinus_ASF361	False	True	True
+Medlock2018	ASF_361_519	Nicotinamide	NC(=O)c1cccnc1	True	False				False	True	False
+Medlock2018	ASF_492_519	Valine	CC(C)C(N)C(=O)O	True	True	3	3	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	False	True	True
+Medlock2018	ASF_492_519	Alanine	CC(N)C(=O)O	True	True	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_492_519	Methionine	CSCCC(N)C(=O)O	True	True	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_492_519	Asparagine	NC(=O)CC(N)C(=O)O	True	False	5	5	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_492_519	Lysine	NCCCCC(N)C(=O)O	True	False	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_492_519	Proline	O=C(O)C1CCCN1	True	True	4	4	M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_492_519	Serine	NC(CO)C(=O)O	True	False	1	1	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_492_519	Threonine	CC(O)C(N)C(=O)O	True	False	4	3	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_492_519	Tyrosine	NC(Cc1ccc(O)cc1)C(=O)O	True	False	2	2	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_492_519	Histidine	NC(Cc1cnc[nH]1)C(=O)O	True	True				True	True	True
+Medlock2018	ASF_492_519	Phenylalanine	NC(Cc1ccccc1)C(=O)O	True	False				True	True	True
+Medlock2018	ASF_492_519	Butyrate	CCCC(=O)O	True	False	26	26	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_492_519	Isovalerate	CC(C)CC(=O)O	True	False	48	11	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	False	False	False
+Medlock2018	ASF_492_519	Leucine	CC(C)CC(N)C(=O)O	True	False				True	True	True
+Medlock2018	ASF_492_519	Isoleucine	CCC(C)C(N)C(=O)O	True	False				False	True	True
+Medlock2018	ASF_492_519	Propionate	CCC(=O)O	True	True	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_492_519	Ethanol	CCO	True	False	4	2	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	False	False	False
+Medlock2018	ASF_492_519	Lactate	CC(O)C(=O)O	True	False	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_492_519	Isocaproate	CC(C)CCC(=O)O	True	False				False	False	False
+Medlock2018	ASF_492_519	Acetate	CC(=O)O	True	True	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_492_519	Glutamate	NC(CCC(=O)O)C(=O)O	True	True	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_492_519	Isobutyrate	CC(C)C(=O)O	True	False				False	False	False
+Medlock2018	ASF_492_519	Succinate	O=C(O)CCC(=O)O	True	True	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_492_519	2-Oxoisocaproate	CC(C)CC(=O)C(=O)O	True	False				False	True	False
+Medlock2018	ASF_492_519	Aspartate	NC(CC(=O)O)C(=O)O	True	False	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_492_519	Choline	C[N+](C)(C)CCO	True	True	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_492_519	Cystine	NC(CSSCC(N)C(=O)O)C(=O)O	True	False				False	False	False
+Medlock2018	ASF_492_519	Glycine	NCC(=O)O	True	False	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_492_519	Glycerol	OCC(O)CO	True	False	2	2	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_492_519	Betaine	C[N+](C)(C)CC(=O)[O-]	True	False				False	False	True
+Medlock2018	ASF_492_519	Isopropanol	CC(C)O	True	False	9	5	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	False	False	False
+Medlock2018	ASF_492_519	Pyroglutamate	O=C1CCC(C(=O)O)N1	True	False	7	2	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	False	False	False
+Medlock2018	ASF_492_519	Trehalose	OCC1OC(OC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O	True	False				False	False	True
+Medlock2018	ASF_492_519	Lactose	OCC1OC(OC2C(CO)OC(O)C(O)C2O)C(O)C(O)C1O	True	False	6	6	M_Eubacterium_plexicaudatum_ASF492	False	True	True
+Medlock2018	ASF_492_519	Uracil	O=c1cc[nH]c(=O)[nH]1	True	False				False	True	True
+Medlock2018	ASF_492_519	Uridine	O=c1ccn(C2OC(CO)C(O)C2O)c(=O)[nH]1	True	False	3	3	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_492_519	Cytosine	Nc1cc[nH]c(=O)n1	True	False				False	False	True
+Medlock2018	ASF_492_519	Cytidine	Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1	True	False	8	4	M_Eubacterium_plexicaudatum_ASF492	False	False	True
+Medlock2018	ASF_492_519	Adenosine	Nc1ncnc2c1ncn2C1OC(CO)C(O)C1O	True	False	1	1	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_492_519	Inosine	O=c1[nH]cnc2c1ncn2C1OC(CO)C(O)C1O	True	False	1	1	M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_492_519	Urocanate	O=C(O)C=Cc1cnc[nH]1	True	True	1	1	M_Parabacteroides_sp_ASF519	False	True	False
+Medlock2018	ASF_492_519	Fumarate	O=C(O)C=CC(=O)O	True	True	1	1	M_Eubacterium_plexicaudatum_ASF492|M_Parabacteroides_sp_ASF519	True	True	True
+Medlock2018	ASF_492_519	Tyramine	NCCc1ccc(O)cc1	True	True	19	19	M_Parabacteroides_sp_ASF519	False	False	False
+Medlock2018	ASF_492_519	Tryptophan	NC(Cc1c[nH]c2ccccc12)C(=O)O	True	False				False	True	False
+Medlock2018	ASF_492_519	UMP	O=c1ccn(C2OC(COP(=O)(O)O)C(O)C2O)c(=O)[nH]1	True	False				False	True	False
+Medlock2018	ASF_492_519	Hypoxanthine	O=c1[nH]cnc2[nH]cnc12	True	False				False	True	True
+Medlock2018	ASF_492_519	Adenine	Nc1ncnc2[nH]cnc12	True	True				False	True	False
+Medlock2018	ASF_492_519	Formate	O=CO	True	True	2	2	M_Eubacterium_plexicaudatum_ASF492	True	True	True
+Medlock2018	ASF_492_519	AMP	Nc1ncnc2c1ncn2C1OC(COP(=O)(O)O)C(O)C1O	True	False				False	True	False
+Medlock2018	ASF_492_519	Nicotinate	O=C(O)c1cccnc1	True	False				False	True	False
+Medlock2018	ASF_492_519	Nicotinamide	NC(=O)c1cccnc1	True	False				False	True	False
+RiosGarza2026	GARZA_BHBT	acetate	CC(=O)O	True	True	1	1	M_Bacteroides_thetaiotaomicron_VPI_5482|M_Blautia_hydrogenotrophica_DSM_10507	True	True	True
+RiosGarza2026	GARZA_BHBT	formate	O=CO	False	False	2	2	M_Bacteroides_thetaiotaomicron_VPI_5482|M_Blautia_hydrogenotrophica_DSM_10507	True	True	True
+RiosGarza2026	GARZA_BHBT	glucose	OCC1OC(O)C(O)C(O)C1O	True	False	1	1	M_Bacteroides_thetaiotaomicron_VPI_5482|M_Blautia_hydrogenotrophica_DSM_10507	True	True	True
+RiosGarza2026	GARZA_BHBT	lactate	CC(O)C(=O)O	True	True	1	1	M_Bacteroides_thetaiotaomicron_VPI_5482|M_Blautia_hydrogenotrophica_DSM_10507	True	True	True
+RiosGarza2026	GARZA_BHBT	pyruvate	CC(=O)C(=O)O	True	False	1	1	M_Bacteroides_thetaiotaomicron_VPI_5482|M_Blautia_hydrogenotrophica_DSM_10507	False	True	False
+RiosGarza2026	GARZA_BHBT	succinate	O=C(O)CCC(=O)O	True	True	1	1	M_Bacteroides_thetaiotaomicron_VPI_5482|M_Blautia_hydrogenotrophica_DSM_10507	True	True	True
+RiosGarza2026	GARZA_BHBT	trehalose	OCC1OC(OC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O	True	False				False	True	True
+RiosGarza2026	GARZA_BHRI	acetate	CC(=O)O	True	True	1	1	M_Blautia_hydrogenotrophica_DSM_10507|M_Roseburia_intestinalis_L1_82	True	True	True
+RiosGarza2026	GARZA_BHRI	butyrate	CCCC(=O)O	True	True				True	True	True
+RiosGarza2026	GARZA_BHRI	glucose	OCC1OC(O)C(O)C(O)C1O	True	False	1	1	M_Blautia_hydrogenotrophica_DSM_10507|M_Roseburia_intestinalis_L1_82	True	True	True
+RiosGarza2026	GARZA_BHRI	lactate	CC(O)C(=O)O	True	True	1	1	M_Blautia_hydrogenotrophica_DSM_10507|M_Roseburia_intestinalis_L1_82	True	True	True
+RiosGarza2026	GARZA_BHRI	pyruvate	CC(=O)C(=O)O	True	False	1	1	M_Blautia_hydrogenotrophica_DSM_10507|M_Roseburia_intestinalis_L1_82	False	True	False
+RiosGarza2026	GARZA_BHRI	trehalose	OCC1OC(OC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O	True	False				False	True	True
+RiosGarza2026	GARZA_BTRI	acetate	CC(=O)O	True	True	1	1	M_Bacteroides_thetaiotaomicron_VPI_5482|M_Roseburia_intestinalis_L1_82	True	True	True
+RiosGarza2026	GARZA_BTRI	butyrate	CCCC(=O)O	True	True	26	26	M_Bacteroides_thetaiotaomicron_VPI_5482	True	True	True
+RiosGarza2026	GARZA_BTRI	formate	O=CO	True	True	2	2	M_Bacteroides_thetaiotaomicron_VPI_5482|M_Roseburia_intestinalis_L1_82	True	True	True
+RiosGarza2026	GARZA_BTRI	glucose	OCC1OC(O)C(O)C(O)C1O	True	False	1	1	M_Bacteroides_thetaiotaomicron_VPI_5482|M_Roseburia_intestinalis_L1_82	True	True	True
+RiosGarza2026	GARZA_BTRI	lactate	CC(O)C(=O)O	True	True	1	1	M_Bacteroides_thetaiotaomicron_VPI_5482|M_Roseburia_intestinalis_L1_82	True	True	True
+RiosGarza2026	GARZA_BTRI	pyruvate	CC(=O)C(=O)O	True	False	1	1	M_Bacteroides_thetaiotaomicron_VPI_5482|M_Roseburia_intestinalis_L1_82	False	True	False
+RiosGarza2026	GARZA_BTRI	succinate	O=C(O)CCC(=O)O	True	True	1	1	M_Bacteroides_thetaiotaomicron_VPI_5482|M_Roseburia_intestinalis_L1_82	True	True	True
+RiosGarza2026	GARZA_BHBTRI	acetate	CC(=O)O	True	True	1	1	M_Bacteroides_thetaiotaomicron_VPI_5482|M_Blautia_hydrogenotrophica_DSM_10507|M_Roseburia_intestinalis_L1_82	True	True	True
+RiosGarza2026	GARZA_BHBTRI	butyrate	CCCC(=O)O	True	True	26	26	M_Bacteroides_thetaiotaomicron_VPI_5482	True	True	True
+RiosGarza2026	GARZA_BHBTRI	formate	O=CO	True	True	2	2	M_Bacteroides_thetaiotaomicron_VPI_5482|M_Blautia_hydrogenotrophica_DSM_10507|M_Roseburia_intestinalis_L1_82	True	True	True
+RiosGarza2026	GARZA_BHBTRI	glucose	OCC1OC(O)C(O)C(O)C1O	True	False	1	1	M_Bacteroides_thetaiotaomicron_VPI_5482|M_Blautia_hydrogenotrophica_DSM_10507|M_Roseburia_intestinalis_L1_82	True	True	True
+RiosGarza2026	GARZA_BHBTRI	lactate	CC(O)C(=O)O	True	True	1	1	M_Bacteroides_thetaiotaomicron_VPI_5482|M_Blautia_hydrogenotrophica_DSM_10507|M_Roseburia_intestinalis_L1_82	True	True	True
+RiosGarza2026	GARZA_BHBTRI	pyruvate	CC(=O)C(=O)O	True	False	1	1	M_Bacteroides_thetaiotaomicron_VPI_5482|M_Blautia_hydrogenotrophica_DSM_10507|M_Roseburia_intestinalis_L1_82	False	True	False
+RiosGarza2026	GARZA_BHBTRI	succinate	O=C(O)CCC(=O)O	True	True	1	1	M_Bacteroides_thetaiotaomicron_VPI_5482|M_Blautia_hydrogenotrophica_DSM_10507|M_Roseburia_intestinalis_L1_82	True	True	True
+RiosGarza2026	GARZA_BHBTRI	trehalose	OCC1OC(OC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O	True	False				False	True	True
