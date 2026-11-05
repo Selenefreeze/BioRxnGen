@@ -2,7 +2,9 @@
 
 We evaluated ranked BioRxnGen candidates against extracellular metabolites enriched in OMM12, ASF and Rios Garza cultures. The primary run used strain-linked EC annotations and native substrates for 19 strains. The frozen Fig. 2 reranker scored the generated products without ESP. Ranking was performed within each strain–EC–substrate input.
 
-The top five candidates per input retained 71 of 114 enriched condition–metabolite observations using 23,629 of 350,265 candidate rows (6.7%). The full candidate set matched 83 observations. Native AGORA2 supported feasible net secretion for 70 observations under anaerobic rich-medium bounds at 10% of maximum community growth. Its intracellular reaction-product inventory matched 104 observations.
+The top five candidates per input retained 71 of 114 enriched condition–metabolite observations using 23,629 of 350,265 candidate rows (6.7%). The full candidate set matched 83 observations. Native AGORA2 supported feasible net secretion for 70 observations under anaerobic rich-medium bounds with a minimum growth constraint of 10% of maximum community growth. Its intracellular reaction-product inventory matched 104 observations.
+
+The ranked analysis covers three studies selected after the four-study full-pool analysis. The [balance audit](results/reaction_balance_audit.tsv) checks the archived reaction sides at their original ranks. Sixty observations had an element- and charge-balanced match in the top five, and 83 had such a match in the full pool.
 
 | Location | Contents |
 | --- | --- |
@@ -24,6 +26,7 @@ Run from the repository root after the [repository installation](../../README.md
 python -m pip install -r benchmarks/defined_communities/requirements.txt
 python benchmarks/defined_communities/benchmark.py verify
 python benchmarks/defined_communities/ranking.py verify
+python benchmarks/defined_communities/balance_audit.py --check
 ```
 
 For a rerun, the assay command fetches the original source files and rebuilds the assay panel. The model command extracts the required AGORA2 2.01 SBML members from the VMH archive. The generation command uses the [released input archive](https://github.com/Selenefreeze/BioRxnGen/releases/download/v1.0.0/model_and_generation_inputs.zip), including its directional rules and split assignments. Pass the archive path to the command below.
