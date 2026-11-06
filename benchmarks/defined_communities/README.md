@@ -28,7 +28,7 @@ From the repository root after [installation](../../README.md#install-and-run):
 python benchmarks/defined_communities/benchmark.py verify
 ```
 
-This checks the archives, rescores 504,532 candidate records and rebuilds the coverage tables. The full rerun uses the archived generation worklists, the [release rule and context archive](https://github.com/Selenefreeze/BioRxnGen/releases/download/v1.0.0/model_and_generation_inputs.zip), and the original AGORA2 SBML files:
+This checks the archives, rescores 504,532 candidate records and rebuilds the coverage tables from the archived ranks. Candidate features must match exactly and rerun scores must agree within an absolute tolerance of 10⁻⁶. Small numerical differences between platforms can change the order of nearly tied candidates. The full rerun uses the archived generation worklists, the [release rule and context archive](https://github.com/Selenefreeze/BioRxnGen/releases/download/v1.0.0/model_and_generation_inputs.zip), and the original AGORA2 SBML files:
 
 ```bash
 python -m pip install -r benchmarks/defined_communities/requirements.txt

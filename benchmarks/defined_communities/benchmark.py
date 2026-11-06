@@ -160,7 +160,7 @@ def score(frames):
 
 
 def verify():
-    from ranking import GENERATION_FIELDS, IDENTITY
+    from ranking import GENERATION_FIELDS, IDENTITY, assign_ranks
 
     with ZipFile(DATA / "generation_inputs.zip") as inputs, ZipFile(RESULTS / "generation_records.zip") as records:
         check_archive(inputs)
@@ -176,11 +176,15 @@ def verify():
         saved = read_table(archive, "scored_candidates.parquet")
     if len(saved) != 504532:
         raise ValueError("Unexpected archived candidate count")
-    order = [*GENERATION_FIELDS, "candidate_rank", "reactant_context_rank"]
     left, right = (df.sort_values(IDENTITY).reset_index(drop=True) for df in (rescored, saved))
-    pd.testing.assert_frame_equal(left[order], right[order], check_dtype=False)
+    pd.testing.assert_frame_equal(left[GENERATION_FIELDS], right[GENERATION_FIELDS], check_dtype=False)
     np.testing.assert_allclose(left.reranker_score, right.reranker_score, rtol=0, atol=1e-6)
-    print(f"Verified scores and ranks for {len(saved):,} candidate records.")
+    ranks = ["candidate_rank", "reactant_context_rank"]
+    archived_order = assign_ranks(right.copy())
+    pd.testing.assert_frame_equal(archived_order[ranks], right[ranks], check_dtype=False)
+    changed = int(left[ranks].ne(right[ranks]).any(axis=1).sum())
+    print(f"Verified scores and archived ranks for {len(saved):,} candidate records.")
+    print(f"Candidate records with rerun rank differences: {changed:,}.")
     summarize(None, None, None)
 
 
