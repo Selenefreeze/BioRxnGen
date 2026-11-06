@@ -1,0 +1,22 @@
+[
+  {
+    "dataset": "Han2021_matched_monocultures",
+    "name": "Gut bacterial monocultures",
+    "criterion": "above_control"
+  },
+  {
+    "dataset": "Han2021_defined_in_vivo",
+    "name": "Defined communities in gnotobiotic mice",
+    "criterion": "above_control"
+  },
+  {
+    "dataset": "Farag2020_SIHUMIx",
+    "name": "SIHUMIx consortium cultures",
+    "criterion": "detected"
+  },
+  {
+    "dataset": "Weiss2022_OMM_monocultures",
+    "name": "OMM¹² member monocultures",
+    "criterion": "detected"
+  }
+]

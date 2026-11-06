@@ -121,22 +121,3 @@ def fetch_models(out):
             list(pool.map(fetch, pending))
     verify_models(out)
     print(f"Verified {len(records)} AGORA2 models.")
-
-
-def fetch_assay_sources(out):
-    records = json.loads((ROOT / "data/source_data.json").read_text())
-    def fetch(record):
-        path = out / record["file"]
-        path.parent.mkdir(parents=True, exist_ok=True)
-        if path.is_file() and sha256(path.read_bytes()).hexdigest() == record["sha256"]:
-            return
-        with urlopen(record["url"], timeout=120) as response:
-            data = response.read()
-        if "member" in record:
-            with ZipFile(io.BytesIO(data)) as archive:
-                data = archive.read(record["member"])
-        if sha256(data).hexdigest() != record["sha256"]:
-            raise ValueError(f"Assay source checksum mismatch for {record['file']}")
-        path.write_bytes(data)
-    with ThreadPoolExecutor(max_workers=6) as pool:
-        list(pool.map(fetch, records))

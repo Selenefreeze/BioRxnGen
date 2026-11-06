@@ -1,139 +1,38 @@
-"""Replay or audit the defined-community metabolite benchmark."""
+"""Replay the metabolite benchmark and verify the archived scoring inputs."""
 import argparse
 from concurrent.futures import ProcessPoolExecutor
 from hashlib import file_digest, sha256
-from io import BytesIO
+from io import BytesIO, StringIO
 import json
 from pathlib import Path
-import subprocess
 import sys
 from tempfile import TemporaryDirectory
 from zipfile import ZipFile
 
+import numpy as np
 import pandas as pd
-import pyarrow.parquet as pq
-
-from structures import side_keys
 
 HERE = Path(__file__).resolve().parent
 DATA = HERE / "data"
 RESULTS = HERE / "results"
 CODE = HERE.parents[1] / "code"
-GROUPS = json.loads((DATA / "communities.json").read_text())
-OMM = "omm12"
-OTHER = "asf_and_rios_garza"
-LABELS = (OMM, OTHER)
+CHECKPOINT = CODE / "models/product_reranker.pt"
+REFERENCE_SHA256 = "991507e6f7d21f9abcdc141e26591ceb4cee20b618187fec68f48d3a4080b33c"
 
 
 def read_table(archive, name):
-    raw = BytesIO(archive.read(name))
-    return pd.read_parquet(raw) if name.endswith(".parquet") else pd.read_csv(raw, sep="\t")
+    data = BytesIO(archive.read(name))
+    return pd.read_parquet(data) if name.endswith(".parquet") else pd.read_csv(data, sep="\t")
 
 
 def check_archive(archive):
     manifest = json.loads(archive.read("manifest.json"))
     if set(archive.namelist()) != set(manifest) | {"manifest.json"}:
-        raise ValueError("Archive contents differ from manifest")
-    for member, record in manifest.items():
-        data = archive.read(member)
+        raise ValueError("Archive contents differ from the manifest")
+    for name, record in manifest.items():
+        data = archive.read(name)
         if len(data) != record["bytes"] or sha256(data).hexdigest() != record["sha256"]:
-            raise ValueError(f"Checksum mismatch for {member}")
-
-
-def product_index(archive):
-    index, counts = {}, {"ec": 0, "sequence": 0}
-    for name in archive.namelist():
-        if not (name.endswith("/candidate_products.parquet") or "_products_" in name):
-            continue
-        mode, label, _ = name.split("/", 2)
-        rows = read_table(archive, name)
-        counts[mode] += len(rows)
-        for row in rows.itertuples(index=False):
-            produced = side_keys(row.generated_product_side_smiles, label)
-            consumed = side_keys(row.reactant_side_smiles, label)
-            index.setdefault((mode, row.model_id), set()).update(produced - consumed)
-    return index, counts
-
-
-def require_equal(frame, observed, field):
-    if not frame[field].eq(observed).all():
-        raise ValueError(f"Recomputed {field} does not match the saved scoring table")
-
-
-def verify():
-    with ZipFile(DATA / "generation_inputs.zip") as archive:
-        check_archive(archive)
-        ec_inputs = sum(pq.ParquetFile(BytesIO(archive.read(n))).metadata.num_rows
-                        for n in archive.namelist() if n.startswith("ec/") and "_pairs_" in n)
-    with ZipFile(RESULTS / "generation_records.zip") as archive:
-        check_archive(archive)
-        generated, counts = product_index(archive)
-        attempts = sum(pq.ParquetFile(BytesIO(archive.read(n))).metadata.num_rows
-                       for n in archive.namelist() if n.startswith("ec/") and "_attempts_" in n)
-    if ec_inputs != 10422 or attempts != ec_inputs or counts != {"ec": 350265, "sequence": 67780}:
-        raise ValueError(f"Unexpected generation counts {ec_inputs}, {attempts}, {counts}")
-    saved = pd.read_csv(RESULTS / "per_analyte.tsv", sep="\t")
-    targets = pd.read_csv(DATA / "assay_targets.tsv", sep="\t")
-    identity = ["cohort", "analyte"]
-    for column in ("valid", "enriched", "structure_key"):
-        require_equal(saved.set_index(identity), targets.set_index(identity)[column], column)
-
-    saved_groups = pd.read_csv(RESULTS / "per_cohort.tsv", sep="\t").query("panel == 'enriched'").set_index("cohort")
-    group_counts = (saved[saved.valid & saved.enriched].groupby("cohort")
-                    .agg(total=("analyte", "size"), bio_ec=("bio_ec", "sum"),
-                         gem_community=("gem_community", "sum"), native_graph=("native_graph", "sum")))
-    for field in group_counts.columns:
-        require_equal(saved_groups, group_counts[field].reindex(saved_groups.index), field)
-    positive, ec_hits, gem_hits = 0, 0, 0
-    with ZipFile(RESULTS / "native_gem_records.zip") as archive:
-        check_archive(archive)
-        for group in GROUPS:
-            cohort = group["cohort"]
-            label = OMM if cohort.startswith("OMM12_") else OTHER
-            folder = OMM if label == OMM else cohort
-            frame = saved[saved.cohort.eq(cohort)].copy()
-            keys = frame.structure_key.str.split("|")
-            supported = {mode: set().union(*(generated.get((mode, m), set()) for m in group["models"]))
-                         for mode in ("ec", "sequence")}
-            for mode in ("ec", "sequence"):
-                require_equal(frame, keys.map(lambda items: bool(set(items) & supported[mode])), f"bio_{mode}")
-            flux = read_table(archive, folder + "/maximum_net_export.tsv")
-            active = flux[flux.profile.eq("rich_anaerobic") & flux.scope.eq("community")]
-            feasible = active.solver_status.eq("optimal") & active.maximum_net_export.gt(1e-6)
-            require_equal(active, feasible, "hit")
-            hits = set(active.loc[feasible, "structure_key"])
-            require_equal(frame, keys.map(lambda items: bool(set(items) & hits)), "gem_community")
-            graph = read_table(archive, label + "/native_products.parquet")
-            graph_hits = set(graph.loc[graph.model.isin(group["models"]), "structure_key"])
-            require_equal(frame, keys.map(lambda items: bool(set(items) & graph_hits)), "native_graph")
-            frame = frame[frame.valid & frame.enriched]
-            positive += len(frame)
-            ec_hits += int(frame.bio_ec.sum())
-            gem_hits += int(frame.gem_community.sum())
-    if (positive, ec_hits, gem_hits) != (114, 83, 70):
-        raise ValueError(f"Unexpected coverage {(positive, ec_hits, gem_hits)}")
-    print(f"{len(GROUPS)} groups, {ec_inputs:,} EC contexts, {counts['ec']:,} product rows.")
-    print(f"Recovered {ec_hits}/{positive} by EC-constrained generation and {gem_hits}/{positive} by native GEM.")
-
-
-def fetch_sources(out):
-    from download_inputs import fetch_assay_sources
-
-    out.mkdir(parents=True, exist_ok=True)
-    fetch_assay_sources(out / "sources")
-    (out / "inputs").mkdir(exist_ok=True)
-    for name in ("omm12", "asf", "garza"):
-        subprocess.run([sys.executable, str(HERE / "assays" / f"prepare_{name}.py")], cwd=out, check=True)
-    omm = pd.read_csv(out / "inputs/assay_targets.tsv", sep="\t")
-    omm["cohort"] = "OMM12_" + omm.medium
-    omm["valid"] &= omm.single_structure
-    omm = omm.rename(columns={"structure_keys": "structure_key"})
-    datasets = [omm, *(pd.read_csv(out / "cohorts" / d / "targets.tsv", sep="\t") for d in ("asf", "garza"))]
-    scored = pd.concat(datasets).set_index(["cohort", "analyte"])
-    expected = pd.read_csv(DATA / "assay_targets.tsv", sep="\t").set_index(["cohort", "analyte"])
-    for field in ("valid", "enriched", "structure_key"):
-        require_equal(expected, scored[field].reindex(expected.index), field)
-    print(f"Reproduced {len(expected)} assay records.")
+            raise ValueError(f"Checksum mismatch for {name}")
 
 
 def generation_batch(task):
@@ -148,141 +47,211 @@ def generation_batch(task):
     attempts.to_parquet(destination / file.name.replace("_pairs_", "_attempts_"), index=False)
     audit = destination / file.name.replace("_pairs_", "_audit_").replace(".parquet", ".json")
     audit.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
-    print(file.stem, len(products), flush=True)
 
 
-def replay_generation(reference, out, workers):
+def generate(reference, out, workers):
     with reference.open("rb") as handle:
-        digest = file_digest(handle, "sha256").hexdigest()
-    if digest != "991507e6f7d21f9abcdc141e26591ceb4cee20b618187fec68f48d3a4080b33c":
-        raise ValueError("The reference archive does not match the v1.0.0 release.")
-    with TemporaryDirectory(prefix="biorxngen-community-") as directory:
+        if file_digest(handle, "sha256").hexdigest() != REFERENCE_SHA256:
+            raise ValueError("Unexpected model_and_generation_inputs.zip checksum")
+    with TemporaryDirectory(prefix="biorxngen-metabolome-") as directory:
         work = Path(directory)
         with ZipFile(DATA / "generation_inputs.zip") as archive:
+            check_archive(archive)
             archive.extractall(work)
         with ZipFile(reference) as archive:
-            rules = "reaction_inputs/directional_rules/"
             for name in archive.namelist():
-                if name.startswith(rules) and name.endswith(".parquet"):
+                if name.startswith("reaction_inputs/directional_rules/") and name.endswith(".parquet"):
                     member = work / "rules/reaction_labels" / Path(name).name
                     member.parent.mkdir(parents=True, exist_ok=True)
                     member.write_bytes(archive.read(name))
             split = archive.extract("reaction_inputs/reaction_split/split_assignments.parquet", work)
-            cofactors = archive.extract("reaction_inputs/substrate_context/ec_annotated_substrate_pool.parquet", work)
+            pool = archive.extract("reaction_inputs/substrate_context/ec_annotated_substrate_pool.parquet", work)
         paths = {"rule_chunks_dir": work / "rules", "split_assignments": Path(split),
-                 "annotated_substrate_pool": Path(cofactors)}
-        for label in LABELS:
-            src = work / "ec" / label
-            destination = out / "ec" / label
+                 "annotated_substrate_pool": Path(pool)}
+        tasks = []
+        for scope in sorted((work / "ec").iterdir()):
+            destination = out / scope.name
             destination.mkdir(parents=True, exist_ok=True)
-            cfg = json.loads((src / "settings.json").read_text())
-            settings = {**cfg, "export_reranker_features": True}
-            tasks = [(file, destination, paths, settings) for file in sorted(src.glob("*_pairs_*.parquet"))]
-            with ProcessPoolExecutor(max_workers=workers) as pool:
-                list(pool.map(generation_batch, tasks))
-            subprocess.run([
-                sys.executable, str(CODE / "scripts/generation.py"), "run", "--artifact-root", str(work),
-                "--worklist-manifest", str(work / "sequence" / label / "worklist_manifest.csv"),
-                "--rule-chunks", str(work / "rules"), "--split-assignments", split, "--cofactor-pool", cofactors,
-                "--output", str(out / "sequence" / label), "--workers", str(workers), "--profile", "standard", "--run",
-            ], check=True)
+            settings = json.loads((scope / "settings.json").read_text(encoding="utf-8"))
+            for file in sorted(scope.glob("*_pairs_*.parquet")):
+                tasks.append((file, destination, paths, {**settings, "export_reranker_features": True}))
+        with ProcessPoolExecutor(max_workers=workers) as pool:
+            list(pool.map(generation_batch, tasks))
 
 
 def run_gem(task):
+    import cobra
     from native_gem import collect_exchanges, evaluate, graph_inventory, native_community
     from structures import native_structure_keys
-    import cobra
 
-    models_dir, out, label, cohort, model_ids, keys, profiles = task
+    models_dir, out, scope, cohort, members, keys = task
     cobra.Configuration().solver = "glpk"
-    models = [cobra.io.read_sbml_model(str(models_dir / (m.removeprefix("M_") + ".xml"))) for m in model_ids]
+    models = [cobra.io.read_sbml_model(str(models_dir / (m.removeprefix("M_") + ".xml"))) for m in members]
+    if [model.id for model in models] != members:
+        raise ValueError(f"Unexpected SBML model IDs for {cohort}")
     with ZipFile(DATA / "generation_inputs.zip") as archive:
-        hints = read_table(archive, f"native/{label}/metabolite_structure_hints.parquet")
-        reactions = read_table(archive, f"native/{label}/reactions.parquet")
-    hints["key"] = native_structure_keys(hints, label)
-    index = {(r.model_id, r.metabolite_id): r.key for r in hints.itertuples(index=False)}
+        hints = read_table(archive, f"native/{scope}/metabolite_structure_hints.parquet")
+        reactions = read_table(archive, f"native/{scope}/reactions.parquet")
+    hints["key"] = native_structure_keys(hints, scope)
+    index = {(row.model_id, row.metabolite_id): row.key for row in hints.itertuples(index=False)}
     folder = out / cohort
     folder.mkdir(parents=True, exist_ok=True)
     graph_inventory(models, index, reactions).to_parquet(folder / "native_products.parquet", index=False)
-    exchanges = pd.concat([collect_exchanges(m, index) for m in models], ignore_index=True)
+    exchanges = pd.concat([collect_exchanges(model, index) for model in models], ignore_index=True)
     exchanges.to_csv(folder / "native_exchanges.tsv", sep="\t", index=False)
     states, outputs = [], []
+    profile = "rich_anaerobic"
     for model in models:
         subset = exchanges[exchanges.model.eq(model.id)]
         boundaries = [(r.reaction_id, r.base, r.coefficient, [r.key]) for r in subset.itertuples(index=False)]
-        for profile in profiles:
-            state, result = evaluate(model, "individual", profile, boundaries, keys)
-            states.append(state)
-            outputs.extend(result)
-    community, exchange_ids, biomass, transfers = native_community(models, exchanges)
-    if label != OMM:
+        state, flux = evaluate(model, "individual", profile, boundaries, keys)
+        states.append(state)
+        outputs.extend(flux)
+    if len(models) > 1:
+        community, exchange_ids, biomass, transfers = native_community(models, exchanges)
         community.id = cohort
-    by_base = exchanges.groupby("base").key.agg(lambda values: sorted({x for x in values if x})).to_dict()
-    if any(len(keys) > 1 for keys in by_base.values()):
-        raise ValueError("Conflicting structure annotations for a shared exchange")
-    boundaries = [(r, base, -1.0, by_base[base]) for base, r in exchange_ids.items()]
-    for profile in profiles:
-        for scope, minimum in (("community", ()), ("community_co_growth", biomass)):
-            state, result = evaluate(community, scope, profile, boundaries, keys, minimum)
+        by_base = exchanges.groupby("base").key.agg(lambda values: sorted({v for v in values if v}))
+        if by_base.map(len).gt(1).any():
+            raise ValueError(f"Conflicting structure annotations for a shared exchange in {cohort}")
+        boundaries = [(r, base, -1.0, by_base[base]) for base, r in exchange_ids.items()]
+        for mode, floor in (("community", ()), ("community_co_growth", biomass)):
+            state, flux = evaluate(community, mode, profile, boundaries, keys, floor)
             states.append(state)
-            outputs.extend(result)
+            outputs.extend(flux)
+        pd.DataFrame(transfers, columns=["model", "native_exchange", "community_transfer", "base"]).to_csv(
+            folder / "community_transfers.tsv", sep="\t", index=False)
     pd.DataFrame(states).to_csv(folder / "growth.tsv", sep="\t", index=False)
     pd.DataFrame(outputs).to_csv(folder / "maximum_net_export.tsv", sep="\t", index=False)
-    pd.DataFrame(transfers, columns=["model", "native_exchange", "community_transfer", "base"]).to_csv(
-        folder / "community_transfers.tsv", sep="\t", index=False)
-    print(cohort, "complete", flush=True)
 
 
-def replay_gem(models_dir, out, workers, cohort):
+def replay_gem(models, out, workers):
     from download_inputs import verify_models
-    from native_gem import PROFILES
+    from metabolite_coverage import assay_targets
 
-    verify_models(models_dir)
-    targets = pd.read_csv(DATA / "assay_targets.tsv", sep="\t")
+    verify_models(models)
+    conditions, targets = assay_targets(DATA)
     tasks = []
-    for group in GROUPS:
-        name = group["cohort"]
-        if cohort and cohort != name:
-            continue
-        label = OMM if name.startswith("OMM12_") else OTHER
-        if label == OMM and name == "OMM12_APF" and not cohort:
-            continue
-        selected = targets.cohort.str.startswith("OMM12_") if label == OMM else targets.cohort.eq(name)
-        keys = {key for values in targets.loc[selected, "structure_key"] for key in values.split("|")}
-        tasks.append((models_dir, out, label, OMM if label == OMM else name, group["models"], keys,
-                      tuple(PROFILES) if label == OMM else ("rich_anaerobic",)))
-    if not tasks:
-        raise ValueError(f"Unknown cohort {cohort}")
+    for cohort, frame in conditions.groupby("cohort", sort=True):
+        if frame.agora2_model_ids.nunique() != 1 or frame.scope.nunique() != 1:
+            raise ValueError(f"Inconsistent strain mapping for {cohort}")
+        members = frame.agora2_model_ids.iloc[0].split("|")
+        keys = set(targets.loc[targets.cohort.eq(cohort), "structure_key"])
+        tasks.append((models, out, frame.scope.iloc[0], cohort, members, keys))
     with ProcessPoolExecutor(max_workers=workers) as pool:
         list(pool.map(run_gem, tasks))
 
 
+def score(frames):
+    import torch
+    from biorxngen.reranker import load_model
+    from ranking import GENERATION_FIELDS, IDENTITY, assign_ranks, infer
+
+    torch.set_num_threads(2)
+    model, config = load_model(CHECKPOINT)
+    results = []
+    for raw in frames:
+        frame = raw[GENERATION_FIELDS].copy()
+        frame["reranker_score"] = infer(frame, model, config)
+        results.append(frame)
+    rows = pd.concat(results, ignore_index=True)
+    if rows.duplicated(IDENTITY).any() or not np.isfinite(rows.reranker_score).all():
+        raise ValueError("Duplicate candidate identities or non-finite scores")
+    return assign_ranks(rows)
+
+
+def verify():
+    from ranking import GENERATION_FIELDS, IDENTITY
+
+    with ZipFile(DATA / "generation_inputs.zip") as inputs, ZipFile(RESULTS / "generation_records.zip") as records:
+        check_archive(inputs)
+        check_archive(records)
+        pairs = {n.removeprefix("ec/").replace("_pairs_", "_attempts_"): len(read_table(inputs, n))
+                 for n in inputs.namelist() if "_pairs_" in n}
+        attempts = {n: len(read_table(records, n)) for n in records.namelist() if "_attempts_" in n}
+        if pairs != attempts or len(pairs) != 25:
+            raise ValueError("Generation inputs and attempts do not agree")
+        rescored = score(read_table(records, n) for n in sorted(records.namelist()) if "_products_" in n)
+    with ZipFile(RESULTS / "ranked_candidates.zip") as archive:
+        check_archive(archive)
+        saved = read_table(archive, "scored_candidates.parquet")
+    if len(saved) != 504532:
+        raise ValueError("Unexpected archived candidate count")
+    order = [*GENERATION_FIELDS, "candidate_rank", "reactant_context_rank"]
+    left, right = (df.sort_values(IDENTITY).reset_index(drop=True) for df in (rescored, saved))
+    pd.testing.assert_frame_equal(left[order], right[order], check_dtype=False)
+    np.testing.assert_allclose(left.reranker_score, right.reranker_score, rtol=0, atol=1e-6)
+    print(f"Verified scores and ranks for {len(saved):,} candidate records.")
+    summarize(None, None, None)
+
+
+def summarize(ranked, gem, output):
+    from metabolite_coverage import build_results
+
+    if ranked is None:
+        with ZipFile(RESULTS / "ranked_candidates.zip") as archive:
+            rows = read_table(archive, "scored_candidates.parquet")
+    else:
+        rows = pd.read_parquet(ranked)
+    if gem is None:
+        with TemporaryDirectory(prefix="biorxngen-gem-") as directory:
+            with ZipFile(RESULTS / "native_gem_records.zip") as archive:
+                check_archive(archive)
+                archive.extractall(directory)
+            tables = build_results(rows, Path(directory), DATA)
+    else:
+        tables = build_results(rows, gem, DATA)
+    for filename, table in tables.items():
+        if output is None:
+            expected = pd.read_csv(RESULTS / filename, sep="\t", keep_default_na=False)
+            actual = pd.read_csv(StringIO(table.to_csv(sep="\t", index=False)), sep="\t", keep_default_na=False)
+            order = list(actual.columns)
+            columns = list(expected.columns)
+            if set(order) != set(columns):
+                raise ValueError(f"Unexpected columns in {filename}")
+            pd.testing.assert_frame_equal(
+                actual.sort_values(order, kind="stable").reset_index(drop=True),
+                expected[order].sort_values(order, kind="stable").reset_index(drop=True),
+                check_dtype=False, atol=1e-12)
+        else:
+            output.mkdir(parents=True, exist_ok=True)
+            table.to_csv(output / filename, sep="\t", index=False, lineterminator="\n")
+    print("Verified benchmark tables." if output is None else f"Wrote benchmark tables to {output}.")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    commands = parser.add_subparsers(dest="command", required=True)
-    commands.add_parser("verify")
-    for name in ("assays", "fetch-models", "generate", "gem"):
-        command = commands.add_parser(name)
+    sub = parser.add_subparsers(dest="command", required=True)
+    sub.add_parser("verify")
+    fetch = sub.add_parser("fetch-models")
+    run = sub.add_parser("generate")
+    ranking = sub.add_parser("score")
+    gem = sub.add_parser("gem")
+    summary = sub.add_parser("summarize")
+    for command in (fetch, run, ranking, gem, summary):
         command.add_argument("--output", type=Path, required=True)
-        if name == "generate":
-            command.add_argument("--reference-archive", type=Path, required=True)
-            command.add_argument("--workers", type=int, default=4)
-        if name == "gem":
-            command.add_argument("--models", type=Path, required=True)
-            command.add_argument("--workers", type=int, default=4)
-            command.add_argument("--cohort")
+    for command in (run, gem):
+        command.add_argument("--workers", type=int, default=4)
+    run.add_argument("--reference-archive", type=Path, required=True)
+    ranking.add_argument("--generation", type=Path, required=True)
+    gem.add_argument("--models", type=Path, required=True)
+    summary.add_argument("--ranked", type=Path)
+    summary.add_argument("--gem", type=Path)
     args = parser.parse_args()
     if args.command == "verify":
         verify()
-    elif args.command == "assays":
-        fetch_sources(args.output.resolve())
     elif args.command == "fetch-models":
         from download_inputs import fetch_models
-        fetch_models(args.output.resolve())
+        fetch_models(args.output)
     elif args.command == "generate":
-        replay_generation(args.reference_archive.resolve(), args.output.resolve(), args.workers)
+        generate(args.reference_archive, args.output, args.workers)
+    elif args.command == "score":
+        rows = score(pd.read_parquet(f) for f in sorted(args.generation.glob("*/*_products_*.parquet")))
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        rows.to_parquet(args.output, index=False)
     elif args.command == "gem":
-        replay_gem(args.models.resolve(), args.output.resolve(), args.workers, args.cohort)
+        replay_gem(args.models, args.output, args.workers)
+    else:
+        summarize(args.ranked, args.gem, args.output)
 
 
 if __name__ == "__main__":

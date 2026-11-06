@@ -1,0 +1,492 @@
+[
+  {
+    "CID": 10256,
+    "SMILES": "C1=CC=C2C(=C1)C(=CN2)C=O",
+    "ConnectivitySMILES": "C1=CC=C2C(=C1)C(=CN2)C=O",
+    "InChIKey": "OLNJUISKUQQNIM-UHFFFAOYSA-N",
+    "Title": "Indole-3-Carboxaldehyde"
+  },
+  {
+    "CID": 1054,
+    "SMILES": "CC1=NC=C(C(=C1O)CO)CO",
+    "ConnectivitySMILES": "CC1=NC=C(C(=C1O)CO)CO",
+    "InChIKey": "LXNHXLLTXMVWPM-UHFFFAOYSA-N",
+    "Title": "Pyridoxine"
+  },
+  {
+    "CID": 1060,
+    "SMILES": "CC(=O)C(=O)O",
+    "ConnectivitySMILES": "CC(=O)C(=O)O",
+    "InChIKey": "LCTONWCANYUPML-UHFFFAOYSA-N",
+    "Title": "Pyruvic Acid"
+  },
+  {
+    "CID": 10712,
+    "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O1)O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O)O)O)CO)O)O)O)O",
+    "ConnectivitySMILES": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)O)CO)O)O)O)O",
+    "InChIKey": "GUBGYTABKSRVRQ-QRZGKKJRSA-N",
+    "Title": "D-(+)-Cellobiose (CNP0226604.15)"
+  },
+  {
+    "CID": 1110,
+    "SMILES": "C(CC(=O)O)C(=O)O",
+    "ConnectivitySMILES": "C(CC(=O)O)C(=O)O",
+    "InChIKey": "KDYFGRWQOYBRFD-UHFFFAOYSA-N",
+    "Title": "Succinic Acid"
+  },
+  {
+    "CID": 11333,
+    "SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O[C@@H]2[C@H](O[C@@]([C@H]2O)(CO)O)CO)O)O)O)O",
+    "ConnectivitySMILES": "C(C1C(C(C(C(O1)OC2C(OC(C2O)(CO)O)CO)O)O)O)O",
+    "InChIKey": "JCQLYHFGKNRPGE-FCVZTGTOSA-N",
+    "Title": "Lactulose"
+  },
+  {
+    "CID": 1135,
+    "SMILES": "CC1=CNC(=O)NC1=O",
+    "ConnectivitySMILES": "CC1=CNC(=O)NC1=O",
+    "InChIKey": "RWQNBRDOKXIBIV-UHFFFAOYSA-N",
+    "Title": "Thymine"
+  },
+  {
+    "CID": 11850,
+    "SMILES": "C([C@H]([C@@H]([C@@H]([C@H](CO)O)O)O)O)O",
+    "ConnectivitySMILES": "C(C(C(C(C(CO)O)O)O)O)O",
+    "InChIKey": "FBPFZTCFMRRESA-GUCUJZIJSA-N",
+    "Title": "Galactitol"
+  },
+  {
+    "CID": 119,
+    "SMILES": "C(CC(=O)O)CN",
+    "ConnectivitySMILES": "C(CC(=O)O)CN",
+    "InChIKey": "BTCSSZJGUNDROE-UHFFFAOYSA-N",
+    "Title": "Gamma-Aminobutyric Acid"
+  },
+  {
+    "CID": 12587,
+    "SMILES": "CC(C)CCC(=O)O",
+    "ConnectivitySMILES": "CC(C)CCC(=O)O",
+    "InChIKey": "FGKJLKRYENPLQH-UHFFFAOYSA-N",
+    "Title": "Isocaproic acid"
+  },
+  {
+    "CID": 135398634,
+    "SMILES": "C1=NC2=C(N1)C(=O)NC(=N2)N",
+    "ConnectivitySMILES": "C1=NC2=C(N1)C(=O)NC(=N2)N",
+    "InChIKey": "UYTPUPDQBNUYGX-UHFFFAOYSA-N",
+    "Title": "Guanine"
+  },
+  {
+    "CID": 135398635,
+    "SMILES": "C1=NC2=C(N1[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O)N=C(NC2=O)N",
+    "ConnectivitySMILES": "C1=NC2=C(N1C3C(C(C(O3)CO)O)O)N=C(NC2=O)N",
+    "InChIKey": "NYHBQMYGNKIUIF-UUOKFMHZSA-N",
+    "Title": "Guanosine"
+  },
+  {
+    "CID": 135398641,
+    "SMILES": "C1=NC2=C(C(=O)N1)N=CN2[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O",
+    "ConnectivitySMILES": "C1=NC2=C(C(=O)N1)N=CN2C3C(C(C(O3)CO)O)O",
+    "InChIKey": "UGQMRVRMYYASKQ-KQYNXXCUSA-N",
+    "Title": "Inosine"
+  },
+  {
+    "CID": 145742,
+    "SMILES": "C1C[C@H](NC1)C(=O)O",
+    "ConnectivitySMILES": "C1CC(NC1)C(=O)O",
+    "InChIKey": "ONIBWKKTOPOVIA-BYPYZUCNSA-N",
+    "Title": "L-Proline"
+  },
+  {
+    "CID": 18950,
+    "SMILES": "C([C@@H]1[C@H]([C@@H]([C@@H](C(O1)O)O)O)O)O",
+    "ConnectivitySMILES": "C(C1C(C(C(C(O1)O)O)O)O)O",
+    "InChIKey": "WQZGKKKJIJFFOK-QTVWNMPRSA-N",
+    "Title": "D-Mannose"
+  },
+  {
+    "CID": 190,
+    "SMILES": "C1=NC2=NC=NC(=C2N1)N",
+    "ConnectivitySMILES": "C1=NC2=NC=NC(=C2N1)N",
+    "InChIKey": "GFFGJBXGBJISGV-UHFFFAOYSA-N",
+    "Title": "Adenine"
+  },
+  {
+    "CID": 222656,
+    "SMILES": "C([C@@H](C(=O)O)O)C(=O)O",
+    "ConnectivitySMILES": "C(C(C(=O)O)O)C(=O)O",
+    "InChIKey": "BJEPYKJPYRNKOW-REOHCLBHSA-N",
+    "Title": "L-Malic Acid"
+  },
+  {
+    "CID": 227,
+    "SMILES": "C1=CC=C(C(=C1)C(=O)O)N",
+    "ConnectivitySMILES": "C1=CC=C(C(=C1)C(=O)O)N",
+    "InChIKey": "RWZYAGGXGHYGMB-UHFFFAOYSA-N",
+    "Title": "Anthranilic Acid"
+  },
+  {
+    "CID": 247,
+    "SMILES": "C[N+](C)(C)CC(=O)[O-]",
+    "ConnectivitySMILES": "C[N+](C)(C)CC(=O)[O-]",
+    "InChIKey": "KWIUHFFTVRNATP-UHFFFAOYSA-N",
+    "Title": "Betaine"
+  },
+  {
+    "CID": 2969,
+    "SMILES": "CCCCCCCCCC(=O)O",
+    "ConnectivitySMILES": "CCCCCCCCCC(=O)O",
+    "InChIKey": "GHVNFZFCNZKVNT-UHFFFAOYSA-N",
+    "Title": "Decanoic Acid"
+  },
+  {
+    "CID": 311,
+    "SMILES": "C(C(=O)O)C(CC(=O)O)(C(=O)O)O",
+    "ConnectivitySMILES": "C(C(=O)O)C(CC(=O)O)(C(=O)O)O",
+    "InChIKey": "KRKNYBCHXYNGOX-UHFFFAOYSA-N",
+    "Title": "Citric Acid"
+  },
+  {
+    "CID": 33032,
+    "SMILES": "C(CC(=O)O)[C@@H](C(=O)O)N",
+    "ConnectivitySMILES": "C(CC(=O)O)C(C(=O)O)N",
+    "InChIKey": "WHUUTDBJXJRKMK-VKHMYHEASA-N",
+    "Title": "L-Glutamic Acid"
+  },
+  {
+    "CID": 379,
+    "SMILES": "CCCCCCCC(=O)O",
+    "ConnectivitySMILES": "CCCCCCCC(=O)O",
+    "InChIKey": "WWZKQHOCKIZLMA-UHFFFAOYSA-N",
+    "Title": "Octanoic Acid"
+  },
+  {
+    "CID": 439165,
+    "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)OP(=O)(O)O)O)O)O)O",
+    "ConnectivitySMILES": "C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O",
+    "InChIKey": "HXXFSFRBOHSIMQ-GASJEMHNSA-N",
+    "Title": "D-glucopyranose 1-phosphate"
+  },
+  {
+    "CID": 439190,
+    "SMILES": "C([C@H]([C@@H](C(=O)CO)O)O)OP(=O)(O)O",
+    "ConnectivitySMILES": "C(C(C(C(=O)CO)O)O)OP(=O)(O)O",
+    "InChIKey": "FNZLKVNUWIIPSJ-RFZPGFLSSA-N",
+    "Title": "D-xylulose 5-phosphate"
+  },
+  {
+    "CID": 439224,
+    "SMILES": "C1=C(NC=N1)C[C@@H](C(=O)O)NC(=O)CCN",
+    "ConnectivitySMILES": "C1=C(NC=N1)CC(C(=O)O)NC(=O)CCN",
+    "InChIKey": "CQOVPNPJLQNMDC-ZETCQYMHSA-N",
+    "Title": "Carnosine"
+  },
+  {
+    "CID": 439242,
+    "SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@H](O1)OC[C@@H]2[C@H]([C@@H]([C@H]([C@H](O2)O[C@]3([C@H]([C@@H]([C@H](O3)CO)O)O)CO)O)O)O)O)O)O)O",
+    "ConnectivitySMILES": "C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3(C(C(C(O3)CO)O)O)CO)O)O)O)O)O)O)O",
+    "InChIKey": "MUPFEKGTMRGPLJ-ZQSKZDJDSA-N",
+    "Title": "Raffinose"
+  },
+  {
+    "CID": 439255,
+    "SMILES": "C([C@@H](C([C@H](CO)O)O)O)O",
+    "ConnectivitySMILES": "C(C(C(C(CO)O)O)O)O",
+    "InChIKey": "HEBKCHPVOIAQTA-IMJSIDKUSA-N",
+    "Title": "L-Arabitol"
+  },
+  {
+    "CID": 439357,
+    "SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@H](O1)O)O)O)O)O",
+    "ConnectivitySMILES": "C(C1C(C(C(C(O1)O)O)O)O)O",
+    "InChIKey": "WQZGKKKJIJFFOK-PHYPRBDBSA-N",
+    "Title": "alpha-D-Galactopyranose"
+  },
+  {
+    "CID": 439685,
+    "SMILES": "C1CC(=O)N[C@H]1C(=O)O",
+    "ConnectivitySMILES": "C1CC(=O)NC1C(=O)O",
+    "InChIKey": "ODHCTXKNWHHXJC-GSVOUGTGSA-N",
+    "Title": "D-Pyroglutamic acid"
+  },
+  {
+    "CID": 440658,
+    "SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@H](O1)OC[C@@H]2[C@H]([C@@H]([C@H](C(O2)O)O)O)O)O)O)O)O",
+    "ConnectivitySMILES": "C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)O)O)O)O)O)O)O)O",
+    "InChIKey": "DLRVVLDZNNYCBX-ABXHMFFYSA-N",
+    "Title": "Melibiose"
+  },
+  {
+    "CID": 445639,
+    "SMILES": "CCCCCCCC/C=C\\CCCCCCCC(=O)O",
+    "ConnectivitySMILES": "CCCCCCCCC=CCCCCCCCC(=O)O",
+    "InChIKey": "ZQPPMHVWECSIRJ-KTKRTIGZSA-N",
+    "Title": "Oleic Acid"
+  },
+  {
+    "CID": 525,
+    "SMILES": "C(C(C(=O)O)O)C(=O)O",
+    "ConnectivitySMILES": "C(C(C(=O)O)O)C(=O)O",
+    "InChIKey": "BJEPYKJPYRNKOW-UHFFFAOYSA-N",
+    "Title": "Malic Acid"
+  },
+  {
+    "CID": 5281,
+    "SMILES": "CCCCCCCCCCCCCCCCCC(=O)O",
+    "ConnectivitySMILES": "CCCCCCCCCCCCCCCCCC(=O)O",
+    "InChIKey": "QIQXTHQIDYTFRH-UHFFFAOYSA-N",
+    "Title": "Stearic Acid"
+  },
+  {
+    "CID": 5460935,
+    "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]([C@@H]([C@@H](CO)O)O)C(=O)CO)O)O)O)O",
+    "ConnectivitySMILES": "C(C1C(C(C(C(O1)OC(C(C(CO)O)O)C(=O)CO)O)O)O)O",
+    "InChIKey": "RULSWEULPANCDV-PIXUTMIVSA-N",
+    "Title": "Turanose"
+  },
+  {
+    "CID": 5780,
+    "SMILES": "C([C@H]([C@H]([C@@H]([C@H](CO)O)O)O)O)O",
+    "ConnectivitySMILES": "C(C(C(C(C(CO)O)O)O)O)O",
+    "InChIKey": "FBPFZTCFMRRESA-JGWLITMVSA-N",
+    "Title": "Sorbitol"
+  },
+  {
+    "CID": 5793,
+    "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
+    "ConnectivitySMILES": "C(C1C(C(C(C(O1)O)O)O)O)O",
+    "InChIKey": "WQZGKKKJIJFFOK-GASJEMHNSA-N",
+    "Title": "D-Glucose"
+  },
+  {
+    "CID": 588,
+    "SMILES": "CN1CC(=O)N=C1N",
+    "ConnectivitySMILES": "CN1CC(=O)N=C1N",
+    "InChIKey": "DDRJAANPRJIHGJ-UHFFFAOYSA-N",
+    "Title": "creatinine"
+  },
+  {
+    "CID": 5951,
+    "SMILES": "C([C@@H](C(=O)O)N)O",
+    "ConnectivitySMILES": "C(C(C(=O)O)N)O",
+    "InChIKey": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+    "Title": "L-Serine"
+  },
+  {
+    "CID": 5958,
+    "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)OP(=O)(O)O",
+    "ConnectivitySMILES": "C(C1C(C(C(C(O1)O)O)O)O)OP(=O)(O)O",
+    "InChIKey": "NBSCHQHZLSJFNQ-GASJEMHNSA-N",
+    "Title": "Glucose 6-phosphate"
+  },
+  {
+    "CID": 5960,
+    "SMILES": "C([C@@H](C(=O)O)N)C(=O)O",
+    "ConnectivitySMILES": "C(C(C(=O)O)N)C(=O)O",
+    "InChIKey": "CKLJMWTZIZZHCS-REOHCLBHSA-N",
+    "Title": "L-Aspartic Acid"
+  },
+  {
+    "CID": 5962,
+    "SMILES": "C(CCN)C[C@@H](C(=O)O)N",
+    "ConnectivitySMILES": "C(CCN)CC(C(=O)O)N",
+    "InChIKey": "KDXKERNSBIXSRK-YFKPBYRVSA-N",
+    "Title": "L-Lysine"
+  },
+  {
+    "CID": 5984,
+    "SMILES": "C([C@H]([C@H]([C@@H](C(=O)CO)O)O)O)O",
+    "ConnectivitySMILES": "C(C(C(C(C(=O)CO)O)O)O)O",
+    "InChIKey": "BJHIKXHVCXFQLS-UYFOZJQFSA-N",
+    "Title": "D-(-)-Fructose"
+  },
+  {
+    "CID": 5988,
+    "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O",
+    "ConnectivitySMILES": "C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O",
+    "InChIKey": "CZMRCDWAGMRECN-UGDNZRGBSA-N",
+    "Title": "Sucrose"
+  },
+  {
+    "CID": 6029,
+    "SMILES": "C1=CN(C(=O)NC1=O)[C@H]2[C@@H]([C@@H]([C@H](O2)CO)O)O",
+    "ConnectivitySMILES": "C1=CN(C(=O)NC1=O)C2C(C(C(O2)CO)O)O",
+    "InChIKey": "DRTQHJPVMGBUCF-XVFCMESISA-N",
+    "Title": "Uridine"
+  },
+  {
+    "CID": 6030,
+    "SMILES": "C1=CN(C(=O)NC1=O)[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)O)O)O",
+    "ConnectivitySMILES": "C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)O)O)O",
+    "InChIKey": "DJJCXFVJDGTHFX-XVFCMESISA-N",
+    "Title": "Uridine Monophosphate"
+  },
+  {
+    "CID": 6106,
+    "SMILES": "CC(C)C[C@@H](C(=O)O)N",
+    "ConnectivitySMILES": "CC(C)CC(C(=O)O)N",
+    "InChIKey": "ROHFNLRQFUQHCH-YFKPBYRVSA-N",
+    "Title": "L-Leucine"
+  },
+  {
+    "CID": 612,
+    "SMILES": "CC(C(=O)O)O",
+    "ConnectivitySMILES": "CC(C(=O)O)O",
+    "InChIKey": "JVTAAEKCZFNVCJ-UHFFFAOYSA-N",
+    "Title": "Lactic Acid"
+  },
+  {
+    "CID": 6134,
+    "SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O)O)O)CO)O)O)O)O",
+    "ConnectivitySMILES": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)O)CO)O)O)O)O",
+    "InChIKey": "GUBGYTABKSRVRQ-DCSYEGIMSA-N",
+    "Title": "beta-Lactose"
+  },
+  {
+    "CID": 6137,
+    "SMILES": "CSCC[C@@H](C(=O)O)N",
+    "ConnectivitySMILES": "CSCCC(C(=O)O)N",
+    "InChIKey": "FFEARJCKVFRZRR-BYPYZUCNSA-N",
+    "Title": "L-Methionine"
+  },
+  {
+    "CID": 6140,
+    "SMILES": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N",
+    "ConnectivitySMILES": "C1=CC=C(C=C1)CC(C(=O)O)N",
+    "InChIKey": "COLNVLDHVKWLRT-QMMMGPOBSA-N",
+    "Title": "L-Phenylalanine"
+  },
+  {
+    "CID": 6251,
+    "SMILES": "C([C@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O)O",
+    "ConnectivitySMILES": "C(C(C(C(C(CO)O)O)O)O)O",
+    "InChIKey": "FBPFZTCFMRRESA-KVTDHHQDSA-N",
+    "Title": "Mannitol"
+  },
+  {
+    "CID": 6255,
+    "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O)O)O)CO)O)O)O)O",
+    "ConnectivitySMILES": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)O)CO)O)O)O)O",
+    "InChIKey": "GUBGYTABKSRVRQ-QUYVBRFLSA-N",
+    "Title": "beta-Maltose"
+  },
+  {
+    "CID": 6267,
+    "SMILES": "C([C@@H](C(=O)O)N)C(=O)N",
+    "ConnectivitySMILES": "C(C(C(=O)O)N)C(=O)N",
+    "InChIKey": "DCXYFEDJOCDNAF-REOHCLBHSA-N",
+    "Title": "(-)-Asparagine"
+  },
+  {
+    "CID": 6274,
+    "SMILES": "C1=C(NC=N1)C[C@@H](C(=O)O)N",
+    "ConnectivitySMILES": "C1=C(NC=N1)CC(C(=O)O)N",
+    "InChIKey": "HNDVDQJCIGZPNO-YFKPBYRVSA-N",
+    "Title": "L-Histidine"
+  },
+  {
+    "CID": 6287,
+    "SMILES": "CC(C)[C@@H](C(=O)O)N",
+    "ConnectivitySMILES": "CC(C)C(C(=O)O)N",
+    "InChIKey": "KZSNJWFQEVHDMF-BYPYZUCNSA-N",
+    "Title": "L-Valine"
+  },
+  {
+    "CID": 6288,
+    "SMILES": "C[C@H]([C@@H](C(=O)O)N)O",
+    "ConnectivitySMILES": "CC(C(C(=O)O)N)O",
+    "InChIKey": "AYFVYJQAPQTCCC-GBXIJSLDSA-N",
+    "Title": "L-Threonine"
+  },
+  {
+    "CID": 6306,
+    "SMILES": "CC[C@H](C)[C@@H](C(=O)O)N",
+    "ConnectivitySMILES": "CCC(C)C(C(=O)O)N",
+    "InChIKey": "AGPKZVBTJJNPAG-WHFBIAKZSA-N",
+    "Title": "L-Isoleucine"
+  },
+  {
+    "CID": 66308,
+    "SMILES": "C([C@H]([C@H]([C@@H](C=O)O)O)O)O",
+    "ConnectivitySMILES": "C(C(C(C(C=O)O)O)O)O",
+    "InChIKey": "PYMYPHUHKUWMLA-WDCZJNDASA-N",
+    "Title": "D-Arabinose"
+  },
+  {
+    "CID": 6912,
+    "SMILES": "C([C@H](C([C@H](CO)O)O)O)O",
+    "ConnectivitySMILES": "C(C(C(C(CO)O)O)O)O",
+    "InChIKey": "HEBKCHPVOIAQTA-NGQZWQHPSA-N",
+    "Title": "(2S,4R)-Pentane-1,2,3,4,5-Pentol"
+  },
+  {
+    "CID": 69507,
+    "SMILES": "C([C@H]([C@H]([C@@H](C(=O)CO)O)O)O)OP(=O)(O)O",
+    "ConnectivitySMILES": "C(C(C(C(C(=O)CO)O)O)O)OP(=O)(O)O",
+    "InChIKey": "GSXOAOHZAIYLCY-HSUXUTPPSA-N",
+    "Title": "Fructose 6-phosphate"
+  },
+  {
+    "CID": 725,
+    "SMILES": "C[N+](C)(C)CCCC(=O)[O-]",
+    "ConnectivitySMILES": "C[N+](C)(C)CCCC(=O)[O-]",
+    "InChIKey": "JHPNVNIEXXLNTR-UHFFFAOYSA-N",
+    "Title": "Gamma-Butyrobetaine"
+  },
+  {
+    "CID": 7405,
+    "SMILES": "C1CC(=O)N[C@@H]1C(=O)O",
+    "ConnectivitySMILES": "C1CC(=O)NC1C(=O)O",
+    "InChIKey": "ODHCTXKNWHHXJC-VKHMYHEASA-N",
+    "Title": "L-Pyroglutamic Acid"
+  },
+  {
+    "CID": 7427,
+    "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)O)O",
+    "ConnectivitySMILES": "C(C1C(C(C(C(O1)OC2C(C(C(C(O2)CO)O)O)O)O)O)O)O",
+    "InChIKey": "HDTRYLNUVZCQOY-LIZSDCNHSA-N",
+    "Title": "Trehalose"
+  },
+  {
+    "CID": 77982,
+    "SMILES": "C([C@H]([C@H]([C@H](C=O)O)O)O)OP(=O)(O)O",
+    "ConnectivitySMILES": "C(C(C(C(C=O)O)O)O)OP(=O)(O)O",
+    "InChIKey": "PPQRONHOSHZGFQ-LMVFSUKVSA-N",
+    "Title": "Ribose 5-phosphate"
+  },
+  {
+    "CID": 79025,
+    "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O)O)O)O)O",
+    "ConnectivitySMILES": "C(C1C(C(C(C(O1)O)O)O)O)O",
+    "InChIKey": "WQZGKKKJIJFFOK-DVKNGEFBSA-N",
+    "Title": "Alpha-D-Glucose"
+  },
+  {
+    "CID": 8892,
+    "SMILES": "CCCCCC(=O)O",
+    "ConnectivitySMILES": "CCCCCC(=O)O",
+    "InChIKey": "FUZZWVXGSFPDMH-UHFFFAOYSA-N",
+    "Title": "Hexanoic Acid"
+  },
+  {
+    "CID": 892,
+    "SMILES": "C1(C(C(C(C(C1O)O)O)O)O)O",
+    "ConnectivitySMILES": "C1(C(C(C(C(C1O)O)O)O)O)O",
+    "InChIKey": "CDAISMWEOUEBRE-UHFFFAOYSA-N",
+    "Title": "An inositol"
+  },
+  {
+    "CID": 9060,
+    "SMILES": "C1=CC=C2C(=C1)C(=CN2)C[C@H](C(=O)O)N",
+    "ConnectivitySMILES": "C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N",
+    "InChIKey": "QIVBCDIJIAJPQS-SECBINFHSA-N",
+    "Title": "D-Tryptophan"
+  },
+  {
+    "CID": 9750,
+    "SMILES": "C(C[C@@H](C(=O)O)N)CNC(=O)N",
+    "ConnectivitySMILES": "C(CC(C(=O)O)N)CNC(=O)N",
+    "InChIKey": "RHGKLRLOHDJJDR-BYPYZUCNSA-N",
+    "Title": "Citrulline"
+  }
+]

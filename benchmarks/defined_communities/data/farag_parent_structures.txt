@@ -1,0 +1,125 @@
+# Table S3 row, source parent assignment, connectivity SMILES
+3|2-Deoxytetronic acid|O=C(O)CC(O)CO
+4|2-Hydroxy-3-methylvaleric acid|CCC(C)C(O)C(=O)O
+5|2-Hydroxyglutaric acid|O=C(O)C(O)CCC(=O)O
+6|2-Hydroxyisocaproic acid|CC(C)CC(O)C(=O)O
+7|2-Hydroxyisovaleric acid|CC(C)C(O)C(=O)O
+8|3-Deoxytetronic acid|O=C(O)C(O)CCO
+9|3-Hydroxypropionic acid|OCCC(=O)O
+10|4-Hydroxybutyric acid|OCCCC(=O)O
+12|Benzoic acid|O=C(O)c1ccccc1
+13|Fumaric acid|O=C(O)/C=C/C(=O)O
+14|Glyceric acid|OCC(O)C(=O)O
+15|Glycolic acid|OCC(=O)O
+16|Tartaric acid|O=C(O)C(O)C(O)C(=O)O
+17|Lactic acid|CC(O)C(=O)O
+18|Aspartic acid|NC(CC(=O)O)C(=O)O
+19|Threonic acid|O=C(O)C(O)C(O)CO
+20|Malic acid|O=C(O)C(O)CC(=O)O
+21|Methylsuccinic acid|CC(CC(=O)O)C(=O)O
+22|Oxalic acid|O=C(O)C(=O)O
+23|Glycerol 1-phosphate|O=P(O)(O)OCC(O)CO
+24|2-Deoxyribonic acid|O=C(O)CC(O)C(O)CO
+25|Succinic acid|O=C(O)CCC(=O)O
+26|Succinylacetone|CC(=O)CC(=O)CCC(=O)O
+27|Tartaric acid|O=C(O)C(O)C(O)C(=O)O
+29|2,3-Butanediol|CC(O)C(O)C
+30|Ethylene glycol|OCCO
+31|5-Nonanol|CCCCC(O)CCCC
+32|Propylene glycol|CC(O)CO
+34|Alanine|CC(N)C(=O)O
+35|Alanine|CC(N)C(=O)O
+36|Aspartic acid|NC(CC(=O)O)C(=O)O
+37|Phenylalanine|NC(Cc1ccccc1)C(=O)O
+38|Citrulline|NC(CCCNC(N)=O)C(=O)O
+39|Cysteine|NC(CS)C(=O)O
+40|Phenylalanine|NC(Cc1ccccc1)C(=O)O
+41|Glutamic acid|NC(CCC(=O)O)C(=O)O
+42|Glycine|NCC(=O)O
+43|Glycine|NCC(=O)O
+44|Glycine|NCC(=O)O
+45|Homocysteine|NC(CCS)C(=O)O
+46|Homoserine|NC(CCO)C(=O)O
+47|Isoleucine|CCC(C)C(N)C(=O)O
+48|Leucine|CC(C)CC(N)C(=O)O
+49|N-Acetylglutamic acid|CC(=O)NC(CCC(=O)O)C(=O)O
+50|Isoleucine|CCC(C)C(N)C(=O)O
+51|Leucine|CC(C)CC(N)C(=O)O
+53|Serine|NC(CO)C(=O)O
+54|Threonine|CC(O)C(N)C(=O)O
+55|Threonine|CC(O)C(N)C(=O)O
+56|Methionine|CSCCC(N)C(=O)O
+57|N,N-Dimethylglycine|CN(C)CC(=O)O
+58|4-Hydroxyproline|OC1CC(C(=O)O)NC1
+59|Leucine|CC(C)CC(N)C(=O)O
+60|Norleucine|CCCCC(N)C(=O)O
+61|N-Acetyltyrosine|CC(=O)NC(Cc1ccc(O)cc1)C(=O)O
+62|Ornithine|NC(CCCN)C(=O)O
+63|Ornithine|NC(CCCN)C(=O)O
+64|Ornithine|NC(CCCN)C(=O)O
+65|Proline|O=C(O)C1CCCN1
+66|Pyroglutamic acid|O=C(O)C1CCC(=O)N1
+67|Serine|NC(CO)C(=O)O
+68|Lysine|NC(CCCCN)C(=O)O
+69|Tryptophan|NC(Cc1c[nH]c2ccccc12)C(=O)O
+70|Tyrosine|NC(Cc1ccc(O)cc1)C(=O)O
+71|Tyrosine|NC(Cc1ccc(O)cc1)C(=O)O
+72|Valine|CC(C)C(N)C(=O)O
+73|Valine|CC(C)C(N)C(=O)O
+75|Palmitic acid|CCCCCCCCCCCCCCCC(=O)O
+77|Phosphoric acid|O=P(O)(O)O
+79|Dihydrouracil|O=C1CCNC(=O)N1
+80|3-Methylpiperazine-2,5-dione|CC1NC(=O)CNC1=O
+81|4-Hydroxypyridine|Oc1ccncc1
+82|Ethanolamine|NCCO
+83|Aminomalonic acid|NC(C(=O)O)C(=O)O
+84|Amphetamine|CC(N)Cc1ccccc1
+85|Cadaverine|NCCCCCN
+86|Caffeine|Cn1c(=O)c2c(ncn2C)n(C)c1=O
+87|Ethanolamine|NCCO
+88|Ethanolamine|NCCO
+89|4-Aminobutyric acid|NCCCC(=O)O
+90|Histidine|NC(Cc1cnc[nH]1)C(=O)O
+91|4-(Aminomethyl)cyclohexanecarboxylic acid|NCC1CCC(C(=O)O)CC1
+92|Diethanolamine|OCCNCCO
+93|Nicotinic acid|O=C(O)c1cccnc1
+95|Piperazine-2,5-dione|O=C1CNC(=O)CN1
+96|Putrescine|NCCCCN
+97|Piperazine-2,5-dione|O=C1CNC(=O)CN1
+98|5-Hydroxypipecolic acid|O=C(O)C1CCC(O)CN1
+99|Alanine|CC(N)C(=O)O
+100|Tryptamine|NCCc1c[nH]c2ccccc12
+102|Urea|NC(N)=O
+104|Xanthine|O=c1[nH]c(=O)c2[nH]cnc2[nH]1
+105|N6-Carboxymethyladenine|O=C(O)CNc1ncnc2[nH]cnc12
+106|Adenine|Nc1ncnc2[nH]cnc12
+107|Adenosine|Nc1ncnc2c1ncn2C1OC(CO)C(O)C1O
+108|Hypoxanthine|O=c1[nH]cnc2[nH]cnc12
+109|Inosine|O=c1[nH]cnc2c1ncn2C1OC(CO)C(O)C1O
+110|Thymine|Cc1c[nH]c(=O)[nH]c1=O
+111|Uracil|O=c1cc[nH]c(=O)[nH]1
+113|4-Hydroxyphenylacetic acid|O=C(O)Cc1ccc(O)cc1
+114|Catechin|Oc1cc(O)c2c(c1)OC(c1ccc(O)c(O)c1)C(O)C2
+115|Gallic acid|O=C(O)c1cc(O)c(O)c(O)c1
+116|2-Hydroxy-3-phenylpropanoic acid|O=C(O)C(O)Cc1ccccc1
+117|Resorcinol|Oc1cccc(O)c1
+119|2-Methoxyestradiol|COc1cc2c(cc1O)C1CCC3(C)C(O)CCC3C1CC2
+122|Arabinose|O=CC(O)C(O)C(O)CO
+123|Trehalose|OCC1OC(OC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O
+124|3-Deoxyhexonic acid|O=C(O)C(O)CC(O)C(O)CO
+125|Glucose|O=CC(O)C(O)C(O)C(O)CO
+126|Mannose|O=CC(O)C(O)C(O)C(O)CO
+127|Ribose|O=CC(O)C(O)C(O)CO
+128|Erythritol|OCC(O)C(O)CO
+129|Fructose|O=C(CO)C(O)C(O)C(O)CO
+130|Fructose|O=C(CO)C(O)C(O)C(O)CO
+131|Galactinol|OCC1OC(OC2C(O)C(O)C(O)C(O)C2O)C(O)C(O)C1O
+132|Threose|O=CC(O)C(O)CO
+133|Lactitol|OCC1OC(OCC(O)C(O)C(O)C(O)CO)C(O)C(O)C1O
+134|Myo-inositol|OC1C(O)C(O)C(O)C(O)C1O
+135|Psicose|O=C(CO)C(O)C(O)C(O)CO
+136|Ribitol|OCC(O)C(O)C(O)CO
+137|Sorbose|O=C(CO)C(O)C(O)C(O)CO
+138|Sucrose|OCC1OC(OC2(CO)OC(CO)C(O)C2O)C(O)C(O)C1O
+139|Trehalose|OCC1OC(OC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O
+141|Xylulose|O=C(CO)C(O)C(O)CO

@@ -9,15 +9,6 @@ from cobra.io import sbml
 EPS = 1e-6
 GROWTH_FRACTION = 0.10
 OXYGEN = {"o2", "oxygen"}
-AF_SUGARS = {"glc_D"}
-APF_SUGARS = {"arab_L", "fuc_L", "lyx_D", "lyx_L", "rha_L", "xyl_D"}
-OTHER_CARBOHYDRATES = {
-    "fru", "gal", "man", "rib_D", "glc_L", "glcn", "glcur", "galur", "tre", "sucr",
-    "lcts", "malt", "malttr", "melib", "raffin", "cellb", "cellul", "starch",
-    "starch1200", "amylose300", "pullulan1200", "dextran", "glycogen", "sbt_D", "mnl",
-}
-PROFILES = {"rich_anaerobic": None, "AF_carbohydrate_proxy": AF_SUGARS,
-            "APF_carbohydrate_proxy": APF_SUGARS}
 
 
 def exchange_base(met):
@@ -27,15 +18,6 @@ def exchange_base(met):
 
 def pars_id(met):
     return f"M_{exchange_base(met)}__91__{met.compartment}__93__"
-
-
-def is_uptake_allowed(base, profile):
-    if base in OXYGEN:
-        return False
-    carbs = PROFILES[profile]
-    if carbs is None:
-        return True
-    return base not in (AF_SUGARS | APF_SUGARS | OTHER_CARBOHYDRATES) or base in carbs
 
 
 def potential_bounds(reaction):
@@ -132,11 +114,13 @@ def native_community(models, exchanges):
 
 
 def evaluate(model, scope, profile, boundaries, target_keys, min_co_growth=()):
+    if profile != "rich_anaerobic":
+        raise ValueError(f"Unsupported medium profile: {profile}")
     rows = []
     with model:
         for reaction_id, base, coefficient, keys in boundaries:
             reaction = model.reactions.get_by_id(reaction_id)
-            if not is_uptake_allowed(base, profile):
+            if base in OXYGEN:
                 if coefficient < 0:
                     reaction.lower_bound = max(0.0, reaction.lower_bound)
                 else:

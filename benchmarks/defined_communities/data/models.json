@@ -20,6 +20,17 @@
     "metabolites": 1124
   },
   {
+    "file": "Anaerostipes_caccae_DSM_14662.xml",
+    "archive_entry": "Anaerostipes_caccae_DSM_14662.xml",
+    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
+    "sbml_model_id": "M_Anaerostipes_caccae_DSM_14662",
+    "sha256": "fa5492ecb8da5f04f4d39590aa4496753e55b04a966849a96034f74e5095ba35",
+    "original_sha256": "fa5492ecb8da5f04f4d39590aa4496753e55b04a966849a96034f74e5095ba35",
+    "name_encoding_repair": false,
+    "reactions": 1174,
+    "metabolites": 1080
+  },
+  {
     "file": "Bacteroides_caecimuris_I48.xml",
     "archive_entry": "Bacteroides_caecimuris_I48.xml",
     "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
@@ -28,96 +39,6 @@
     "sbml_model_id": "M_Bacteroides_caecimuris_I48",
     "reactions": 1175,
     "metabolites": 1097
-  },
-  {
-    "file": "Bifidobacterium_animalis_subsp_animalis_YL2.xml",
-    "archive_entry": "Bifidobacterium_animalis_subsp_animalis_YL2.xml",
-    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
-    "bytes": 4166112,
-    "sha256": "85221b5a0586437e5d548075c5b1cbcbdb8edc9cca84de1d7110bc18fa2d7e84",
-    "sbml_model_id": "M_Bifidobacterium_animalis_subsp_animalis_YL2",
-    "reactions": 965,
-    "metabolites": 890
-  },
-  {
-    "file": "Blautia_coccoides_YL58.xml",
-    "archive_entry": "Blautia_coccoides_YL58.xml",
-    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
-    "bytes": 4850980,
-    "sha256": "6df3bb97b537e90e4d37c16dd16dd0c4d8a9cb7dd0f446031d6c2068bc370169",
-    "sbml_model_id": "M_Blautia_coccoides_YL58",
-    "reactions": 1130,
-    "metabolites": 1022
-  },
-  {
-    "file": "Clostridium_clostridioforme_YL32.xml",
-    "archive_entry": "Clostridium_clostridioforme_YL32.xml",
-    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
-    "bytes": 5734165,
-    "sha256": "da2b8d460242f1f62b509ef18cf3cd3bee948bfe758235e6ba9e1d71f453a30c",
-    "sbml_model_id": "M_Clostridium_clostridioforme_YL32",
-    "reactions": 1228,
-    "metabolites": 1104
-  },
-  {
-    "file": "Clostridium_innocuum_I46.xml",
-    "archive_entry": "Clostridium_innocuum_I46.xml",
-    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
-    "bytes": 4800776,
-    "sha256": "e8e08d88a2a5421e138d1e60f4f1f45df46071c6f0bfbd91ebcca76b391271b2",
-    "sbml_model_id": "M_Clostridium_innocuum_I46",
-    "reactions": 1061,
-    "metabolites": 967
-  },
-  {
-    "file": "Enterococcus_faecalis_KB1.xml",
-    "archive_entry": "Enterococcus_faecalis_KB1.xml",
-    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
-    "bytes": 5004792,
-    "sha256": "63997a8dad026315f9ca4bc7697e6399138dbe407c6962a0cc4b8542ce325936",
-    "sbml_model_id": "M_Enterococcus_faecalis_KB1",
-    "reactions": 1179,
-    "metabolites": 1025
-  },
-  {
-    "file": "Flavonifractor_plautii_YL31.xml",
-    "archive_entry": "Flavonifractor_plautii_YL31.xml",
-    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
-    "bytes": 4916047,
-    "sha256": "916c818845dc5c6f50f72ef90f571fb0e2e272f229baaf9d32096132d9f8966b",
-    "sbml_model_id": "M_Flavonifractor_plautii_YL31",
-    "reactions": 1075,
-    "metabolites": 1023
-  },
-  {
-    "file": "Lactobacillus_reuteri_I49.xml",
-    "archive_entry": "Lactobacillus_reuteri_I49.xml",
-    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
-    "bytes": 4588998,
-    "sha256": "bc6e2229742eb5078e597467807960c93e8579e719f6cd123d9f9f5c1a5c04e7",
-    "sbml_model_id": "M_Lactobacillus_reuteri_I49",
-    "reactions": 1079,
-    "metabolites": 982
-  },
-  {
-    "file": "Muribaculum_intestinale_YL27.xml",
-    "archive_entry": "Muribaculum_intestinale_YL27.xml",
-    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
-    "bytes": 4373382,
-    "sha256": "973af1206f1ef328cf681610bb2b92aa9c0a51a3f5dd07aeeec1a91609bbff7d",
-    "sbml_model_id": "M_Muribaculum_intestinale_YL27",
-    "reactions": 1020,
-    "metabolites": 995
-  },
-  {
-    "file": "Turicimonas_muris_YL45.xml",
-    "archive_entry": "Turicimonas_muris_YL45.xml",
-    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
-    "bytes": 4553414,
-    "sha256": "91d25372c9d16c74412006cc4af149bb01fdb8ad99e5c525201a689530a71ea8",
-    "sbml_model_id": "M_Turicimonas_muris_YL45",
-    "reactions": 1082,
-    "metabolites": 1039
   },
   {
     "file": "Bacteroides_thetaiotaomicron_VPI_5482.xml",
@@ -161,63 +82,214 @@
     "metabolites": 2041
   },
   {
-    "file": "Blautia_hydrogenotrophica_DSM_10507.xml",
-    "archive_entry": "Blautia_hydrogenotrophica_DSM_10507.xml",
+    "file": "Bifidobacterium_animalis_subsp_animalis_YL2.xml",
+    "archive_entry": "Bifidobacterium_animalis_subsp_animalis_YL2.xml",
     "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
-    "bytes": 4678304,
-    "sha256": "e83161a5196a93a1fcb73b0fc8416937f33f7bbf8acfc43df638af0897d63861",
-    "sbml_model_id": "M_Blautia_hydrogenotrophica_DSM_10507",
-    "reactions": 1066,
-    "metabolites": 993
+    "bytes": 4166112,
+    "sha256": "85221b5a0586437e5d548075c5b1cbcbdb8edc9cca84de1d7110bc18fa2d7e84",
+    "sbml_model_id": "M_Bifidobacterium_animalis_subsp_animalis_YL2",
+    "reactions": 965,
+    "metabolites": 890
   },
   {
-    "file": "Clostridium_sp_ASF356.xml",
-    "archive_entry": "Clostridium_sp_ASF356.xml",
+    "file": "Bifidobacterium_longum_NCC2705.xml",
+    "archive_entry": "Bifidobacterium_longum_NCC2705.xml",
     "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
-    "bytes": 4052739,
-    "sha256": "3ff13a84c77fc21a987c4d81d7305722bed684723afb896b0b63e0fe46faa00b",
-    "sbml_model_id": "M_Clostridium_sp_ASF356",
-    "reactions": 932,
-    "metabolites": 909
+    "sbml_model_id": "M_Bifidobacterium_longum_NCC2705",
+    "sha256": "365bcb2af6a6c3c646868f64046c763123d5c25ce31bdde3ef93e5e4ede60e43",
+    "original_sha256": "365bcb2af6a6c3c646868f64046c763123d5c25ce31bdde3ef93e5e4ede60e43",
+    "name_encoding_repair": false,
+    "reactions": 1008,
+    "metabolites": 926
   },
   {
-    "file": "Eubacterium_plexicaudatum_ASF492.xml",
-    "archive_entry": "Eubacterium_plexicaudatum_ASF492.xml",
+    "file": "Blautia_coccoides_YL58.xml",
+    "archive_entry": "Blautia_coccoides_YL58.xml",
     "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
-    "bytes": 4673326,
-    "sha256": "c8ab2119910661fdccec6f278ccdea38e2cd1638246d3df4bebfe663bc2b2236",
-    "sbml_model_id": "M_Eubacterium_plexicaudatum_ASF492",
+    "bytes": 4850980,
+    "sha256": "6df3bb97b537e90e4d37c16dd16dd0c4d8a9cb7dd0f446031d6c2068bc370169",
+    "sbml_model_id": "M_Blautia_coccoides_YL58",
+    "reactions": 1130,
+    "metabolites": 1022
+  },
+  {
+    "file": "Blautia_producta_DSM_2950.xml",
+    "archive_entry": "Blautia_producta_DSM_2950.xml",
+    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
+    "sbml_model_id": "M_Blautia_producta_DSM_2950",
+    "sha256": "56375ef8edb09e8055d2dba256f125951235d8fa2d2a66b50b5ff3945ca8fc40",
+    "original_sha256": "56375ef8edb09e8055d2dba256f125951235d8fa2d2a66b50b5ff3945ca8fc40",
+    "name_encoding_repair": false,
+    "reactions": 1201,
+    "metabolites": 1083
+  },
+  {
+    "file": "Clostridium_butyricum_DSM_10702.xml",
+    "archive_entry": "Clostridium_butyricum_DSM_10702.xml",
+    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
+    "sbml_model_id": "M_Clostridium_butyricum_DSM_10702",
+    "sha256": "31cee249117afdc0522ff72a9420deb5beab9a0cf323dd7a0cfa2605714be2a9",
+    "original_sha256": "31cee249117afdc0522ff72a9420deb5beab9a0cf323dd7a0cfa2605714be2a9",
+    "name_encoding_repair": false,
+    "reactions": 1478,
+    "metabolites": 1192
+  },
+  {
+    "file": "Clostridium_clostridioforme_YL32.xml",
+    "archive_entry": "Clostridium_clostridioforme_YL32.xml",
+    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
+    "bytes": 5734165,
+    "sha256": "da2b8d460242f1f62b509ef18cf3cd3bee948bfe758235e6ba9e1d71f453a30c",
+    "sbml_model_id": "M_Clostridium_clostridioforme_YL32",
+    "reactions": 1228,
+    "metabolites": 1104
+  },
+  {
+    "file": "Clostridium_innocuum_I46.xml",
+    "archive_entry": "Clostridium_innocuum_I46.xml",
+    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
+    "bytes": 4800776,
+    "sha256": "e8e08d88a2a5421e138d1e60f4f1f45df46071c6f0bfbd91ebcca76b391271b2",
+    "sbml_model_id": "M_Clostridium_innocuum_I46",
+    "reactions": 1061,
+    "metabolites": 967
+  },
+  {
+    "file": "Clostridium_ramosum_VPI_0427_DSM_1402.xml",
+    "archive_entry": "Clostridium_ramosum_VPI_0427_DSM_1402.xml",
+    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
+    "sbml_model_id": "M_Clostridium_ramosum_VPI_0427_DSM_1402",
+    "sha256": "7e5cdf7825d49195a3ed60a9bfb0c106e4889825629456e2cc14ffc1353be8d0",
+    "original_sha256": "7e5cdf7825d49195a3ed60a9bfb0c106e4889825629456e2cc14ffc1353be8d0",
+    "name_encoding_repair": false,
+    "reactions": 1049,
+    "metabolites": 962
+  },
+  {
+    "file": "Clostridium_sporogenes_ATCC_15579.xml",
+    "archive_entry": "Clostridium_sporogenes_ATCC_15579.xml",
+    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
+    "sbml_model_id": "M_Clostridium_sporogenes_ATCC_15579",
+    "sha256": "097ad16945056107e3fb7e87be3d61801c48b66230e2358448c8ca5526b07553",
+    "original_sha256": "097ad16945056107e3fb7e87be3d61801c48b66230e2358448c8ca5526b07553",
+    "name_encoding_repair": false,
+    "reactions": 1407,
+    "metabolites": 1184
+  },
+  {
+    "file": "Collinsella_aerofaciens_ATCC_25986.xml",
+    "archive_entry": "Collinsella_aerofaciens_ATCC_25986.xml",
+    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
+    "sbml_model_id": "M_Collinsella_aerofaciens_ATCC_25986",
+    "sha256": "7bfc579c61bc98aacc07455a6992deeef4933c05c25f096e88830ba7039200a6",
+    "original_sha256": "7bfc579c61bc98aacc07455a6992deeef4933c05c25f096e88830ba7039200a6",
+    "name_encoding_repair": false,
+    "reactions": 886,
+    "metabolites": 832
+  },
+  {
+    "file": "Edwardsiella_tarda_ATCC_23685.xml",
+    "archive_entry": "Edwardsiella_tarda_ATCC_23685.xml",
+    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
+    "sbml_model_id": "M_Edwardsiella_tarda_ATCC_23685",
+    "sha256": "4b8796be2ca84060ce877425e30f5e4280eee7099e107cc027a7fb8821fa3e8f",
+    "original_sha256": "7d99e5a1401d1fa51d60d5b79c27dda7dd9dcdd2f8c59bc6d51106f786d82392",
+    "name_encoding_repair": true,
+    "reactions": 2835,
+    "metabolites": 2348
+  },
+  {
+    "file": "Enterococcus_faecalis_KB1.xml",
+    "archive_entry": "Enterococcus_faecalis_KB1.xml",
+    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
+    "bytes": 5004792,
+    "sha256": "63997a8dad026315f9ca4bc7697e6399138dbe407c6962a0cc4b8542ce325936",
+    "sbml_model_id": "M_Enterococcus_faecalis_KB1",
+    "reactions": 1179,
+    "metabolites": 1025
+  },
+  {
+    "file": "Escherichia_coli_str_K_12_substr_MG1655.xml",
+    "archive_entry": "Escherichia_coli_str_K_12_substr_MG1655.xml",
+    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
+    "sbml_model_id": "M_Escherichia_coli_str_K_12_substr_MG1655",
+    "sha256": "bbc0e99ed9a3a22faf042a41382fa8186c16a6e86769eb736e1552c3a7a0502a",
+    "original_sha256": "f2ab5c14c98ec7fbe91a0b91a1649410b88a0066271ff692c7751ece11965825",
+    "name_encoding_repair": true,
+    "reactions": 3277,
+    "metabolites": 2630
+  },
+  {
+    "file": "Eubacterium_rectale_ATCC_33656.xml",
+    "archive_entry": "Eubacterium_rectale_ATCC_33656.xml",
+    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
+    "sbml_model_id": "M_Eubacterium_rectale_ATCC_33656",
+    "sha256": "089241dee442b8a9ee6e470a1def9f1750857e2ef8a4007393c4a885f315c6f2",
+    "original_sha256": "089241dee442b8a9ee6e470a1def9f1750857e2ef8a4007393c4a885f315c6f2",
+    "name_encoding_repair": false,
+    "reactions": 1277,
+    "metabolites": 1110
+  },
+  {
+    "file": "Flavonifractor_plautii_YL31.xml",
+    "archive_entry": "Flavonifractor_plautii_YL31.xml",
+    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
+    "bytes": 4916047,
+    "sha256": "916c818845dc5c6f50f72ef90f571fb0e2e272f229baaf9d32096132d9f8966b",
+    "sbml_model_id": "M_Flavonifractor_plautii_YL31",
+    "reactions": 1075,
+    "metabolites": 1023
+  },
+  {
+    "file": "Lactobacillus_plantarum_subsp_plantarum_ATCC_14917.xml",
+    "archive_entry": "Lactobacillus_plantarum_subsp_plantarum_ATCC_14917.xml",
+    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
+    "sbml_model_id": "M_Lactobacillus_plantarum_subsp_plantarum_ATCC_14917",
+    "sha256": "3f947e8749a55203f70db88bcacf07c790d8bedabdb305b48f228f22a38eaad6",
+    "original_sha256": "3f947e8749a55203f70db88bcacf07c790d8bedabdb305b48f228f22a38eaad6",
+    "name_encoding_repair": false,
+    "reactions": 1209,
+    "metabolites": 1055
+  },
+  {
+    "file": "Lactobacillus_reuteri_I49.xml",
+    "archive_entry": "Lactobacillus_reuteri_I49.xml",
+    "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
+    "bytes": 4588998,
+    "sha256": "bc6e2229742eb5078e597467807960c93e8579e719f6cd123d9f9f5c1a5c04e7",
+    "sbml_model_id": "M_Lactobacillus_reuteri_I49",
     "reactions": 1079,
-    "metabolites": 1011
+    "metabolites": 982
   },
   {
-    "file": "Lactobacillus_murinus_ASF361.xml",
-    "archive_entry": "Lactobacillus_murinus_ASF361.xml",
+    "file": "Muribaculum_intestinale_YL27.xml",
+    "archive_entry": "Muribaculum_intestinale_YL27.xml",
     "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
-    "bytes": 4087897,
-    "sha256": "3da01def44ae89295f443919b991bd37766af825471181953d6b69fa4d325800",
-    "sbml_model_id": "M_Lactobacillus_murinus_ASF361",
-    "reactions": 969,
-    "metabolites": 899
+    "bytes": 4373382,
+    "sha256": "973af1206f1ef328cf681610bb2b92aa9c0a51a3f5dd07aeeec1a91609bbff7d",
+    "sbml_model_id": "M_Muribaculum_intestinale_YL27",
+    "reactions": 1020,
+    "metabolites": 995
   },
   {
-    "file": "Parabacteroides_sp_ASF519.xml",
-    "archive_entry": "Parabacteroides_sp_ASF519.xml",
+    "file": "Parabacteroides_distasonis_ATCC_8503.xml",
+    "archive_entry": "Parabacteroides_distasonis_ATCC_8503.xml",
     "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
-    "bytes": 7644247,
-    "sha256": "760d57b4caf1c67bbef25a3d2a040493c2c224892f081cea30ec33ecf50cbdbe",
-    "sbml_model_id": "M_Parabacteroides_sp_ASF519",
-    "reactions": 2048,
-    "metabolites": 1806
+    "sbml_model_id": "M_Parabacteroides_distasonis_ATCC_8503",
+    "sha256": "a57809b7bc0f44eaae055118be0570b1ce02f3039d1f6bd944819fe234627602",
+    "original_sha256": "a57809b7bc0f44eaae055118be0570b1ce02f3039d1f6bd944819fe234627602",
+    "name_encoding_repair": false,
+    "reactions": 2320,
+    "metabolites": 1953
   },
   {
-    "file": "Roseburia_intestinalis_L1_82.xml",
-    "archive_entry": "Roseburia_intestinalis_L1_82.xml",
+    "file": "Turicimonas_muris_YL45.xml",
+    "archive_entry": "Turicimonas_muris_YL45.xml",
     "archive_url": "https://vmh.life/api/reconstructionFiles?download=AGORA2%2Fversion2.01%2Fsbml_files_fixed%2Fzipped%2FAGORA2_models%2FAGORA2_SBML.zip",
-    "bytes": 7628013,
-    "sha256": "a99db45192873bcff0c7c338e3e6240a7f620f252b8ae8c1424d07a8bdf5e1cc",
-    "sbml_model_id": "M_Roseburia_intestinalis_L1_82",
-    "reactions": 1983,
-    "metabolites": 1691
+    "bytes": 4553414,
+    "sha256": "91d25372c9d16c74412006cc4af149bb01fdb8ad99e5c525201a689530a71ea8",
+    "sbml_model_id": "M_Turicimonas_muris_YL45",
+    "reactions": 1082,
+    "metabolites": 1039
   }
 ]

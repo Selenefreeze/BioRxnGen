@@ -1,4 +1,5 @@
 """Standardize covalent structures and audited assay representations."""
+from collections import Counter
 from functools import lru_cache
 import json
 from pathlib import Path
@@ -62,3 +63,17 @@ def native_structure_keys(hints, label):
             raise ValueError(f"Unexpected structure for {row.base}")
         keys.loc[selected] = target
     return keys
+
+
+@lru_cache(maxsize=65536)
+def composition(smiles):
+    elements = Counter()
+    charge = 0
+    for part in smiles.split("."):
+        mol = Chem.MolFromSmiles(part)
+        if mol is None or mol.GetNumAtoms() == 0 or any(atom.GetAtomicNum() == 0 for atom in mol.GetAtoms()):
+            return None
+        elements.update(atom.GetAtomicNum() for atom in Chem.AddHs(mol).GetAtoms())
+        charge += Chem.GetFormalCharge(mol)
+    heavy = tuple(sorted((element, count) for element, count in elements.items() if element != 1))
+    return heavy, elements[1], charge

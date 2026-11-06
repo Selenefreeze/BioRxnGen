@@ -1,0 +1,9 @@
+dataset	panel	target_subset	distinct_structures	native_gem_hits	bio_top5_hits	balanced_top5_hits	native_graph_hits	native_graph_plus_balanced_top5_hits
+Han2021_matched_monocultures	above_control	all	208	21	38	36	48	61
+Han2021_matched_monocultures	above_control	mapped_to_native_exchanges	29	21	16	15	25	25
+Han2021_defined_in_vivo	above_control	all	181	33	37	35	47	57
+Han2021_defined_in_vivo	above_control	mapped_to_native_exchanges	43	33	24	22	38	38
+Farag2020_SIHUMIx	detected	all	99	32	47	41	44	58
+Farag2020_SIHUMIx	detected	mapped_to_native_exchanges	39	32	29	26	39	39
+Weiss2022_OMM_monocultures	detected	all	43	16	22	19	23	27
+Weiss2022_OMM_monocultures	detected	mapped_to_native_exchanges	23	16	16	13	20	20
